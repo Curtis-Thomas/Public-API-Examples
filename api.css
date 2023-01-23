@@ -1,1 +1,50 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.home-btn-container {
+    padding: 30px;
+    color: white;
+    /* background-color: blanchedalmond; */
+}
+.home-btn-container button {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.home-screen button {
+    border: solid 1px rgb(0, 0, 0);
+    padding: 15px;
+}
+html{
+    background-color: rgb(65, 65, 65);
+}
+
+button {display: block;
+margin-top: 5px;
+margin-bottom: 10px;
+padding: 10px;
+background-color: rgba(189, 189, 189, 0.363);
+color: rgb(0, 0, 0);
+cursor: pointer;
+border: solid 1px rgb(0, 0, 0);
+width: 18%;}
+
+.green {
+    background-color: rgba(0, 128, 0, 0.651);
+}
+.yellow{
+    background-color: rgba(255, 255, 0, 0.63);
+}
+
+.red{
+    background-color: rgba(255, 0, 0, 0.658);
+}
+
+.main { display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;}
+
+
 
