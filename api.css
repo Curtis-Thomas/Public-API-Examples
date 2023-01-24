@@ -13,32 +13,67 @@ h1 {
     font-size: 1.5rem;
 }
 
-.home-screen button {
-    border: solid 1px rgb(0, 0, 0);
-    padding: 15px;
+
+.btnHome:hover{
+    background-color: rgb(110, 110, 110);
 }
-html{
-    background-color: rgb(65, 65, 65);
+.home-screen button {
+    width: 32%;
+   
+}
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
 }
 
-button {display: block;
+html{
+    background-color: rgb(53, 53, 53);
+    
+}
+
+button {
+    display: block;
 margin-top: 5px;
 margin-bottom: 10px;
-padding: 10px;
-background-color: rgba(189, 189, 189, 0.363);
-color: rgb(0, 0, 0);
+padding: 15px;
+background-color: rgba(189, 189, 189, 0);
+color: rgb(255, 255, 255);
 cursor: pointer;
-border: solid 1px rgb(0, 0, 0);
-width: 18%;}
+width: 26%;
+border-radius: 20px;}
+
+
 
 .green {
-    background-color: rgba(0, 128, 0, 0.651);
+    background-color: rgba(2, 107, 2, 0.384);
+    box-shadow: inset 5px 5px 10px rgb(2, 107, 2);
+    border: 1px solid rgba(0, 128, 0, 0.712);
 }
+.green:hover {
+    background-color: green;
+    
+}
+
+
 .yellow{
+    background-color: rgba(126, 126, 0, 0.384);
+    box-shadow: inset 5px 5px 10px rgb(126, 126, 0);
+    border: 1px solid rgba(255, 255, 0, 0.473);
+}
+.yellow:hover{
     background-color: rgba(255, 255, 0, 0.63);
 }
 
+
 .red{
+   
+    background-color: rgba(105, 3, 3, 0.281);
+    box-shadow: inset 5px 5px 10px rgba(255, 0, 0, 0.979);
+    border: 1px solid rgba(255, 0, 0, 0.719);
+}
+.red:hover{
     background-color: rgba(255, 0, 0, 0.658);
 }
 

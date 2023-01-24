@@ -9,6 +9,7 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
     animals1.textContent = arr[0]['list'][0]['name']
     animals1.setAttribute("id", "btnAnimals1");
     animals1.setAttribute("class", "red");
+    console.log(animals1);
     resultsContainer.append(animals1)
 
     document.querySelector('#btnAnimals1').addEventListener('click',function(){
