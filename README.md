@@ -1,6 +1,4 @@
-# API-Examples
-
-Using:
+Credit For Origonal List:
 https://free-apis.github.io/#/
 
 Workflow:
