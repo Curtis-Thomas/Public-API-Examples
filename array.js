@@ -265,25 +265,220 @@ list: [
          {name:'Wolne Lektury'},
     ]},
     {name:'Business',
-    list: [{name:''},
-       
-
+    list: [
+        //https://superset.apache.org/docs/api/
+        {name:'Apache Superset'},
+        //https://charityapi.orghunter.com/
+        {name:'Charity Search'},
+        //https://dashboard.clearbit.com/docs#logo-api
+        {name:'Clarbit Logo'},
+        //https://domainsdb.info/
+        {name:'Domainsdb.info'},
+        //https://developers.freelancer.com/
+        {name:'Freelancer'},
+        //https://developers.google.com/gmail/api/guides
+        {name:'Gmail'},
+        //https://developers.google.com/analytics/
+        {name:'Google Analytics'},
+        //https://instatus.com/help/api
+        {name:'Instatus'},
+        //https://mailchimp.com/developer/
+        {name:'Mailchimp'},
+        //https://www.mailjet.com/
+        {name:'mailjet'},
+        //https://markerapi.com/
+        {name:'markerapi'},
+        //https://api.orb-intelligence.com/docs/
+        {name:'ORB Intelligence'},
+        //https://redash.io/help/user-guide/integrations-and-api/api
+        {name:'Redash'},
+        //https://smartsheet.redoc.ly/
+        {name:'Smartsheet'},
+        //https://developer.squareup.com/reference/square
+        {name:'Square'},
+        //https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi
+        {name:'SwiftKanban'},
+        //https://tenders.guru/hu/api
+        {name:'Tenders in Hungary'},
+        //https://tenders.guru/pl/api
+        {name:'Tenders in Poland'},
+        //https://tenders.guru/ro/api
+        {name:'Tenders in Romania'},
+        //https://tenders.guru/es/api
+        {name:'Tenders in Spain'},
+        //https://tenders.guru/ua/api
+        {name:'Tenders in Ukraine'},
+        //https://tomba.io/api
+        {name:'Tomba email finder'},
+        //https://developer.atlassian.com/cloud/trello/
+        {name:'Trello'},
     ]},
     {name:'Calandar',
     list: [
-        {name:''},
+        //https://www.abstractapi.com/api/holidays-api
+        {name:'Abstract Public Holidays'},
+        //https://calendarific.com/
+        {name:'Calendarific'},
+        //https://apilayer.com/marketplace/checkiday-api
+        {name:'Checkiday - National Holiday API'},
+        //http://calapi.inadiutorium.cz/
+        {name:'Church Calendar'},
+        //https://svatky.adresa.info/
+        {name:'Czech Nameday Calendar'},
+        //https://docs.getfestivo.com/docs/products/public-holidays-api/intro/
+        {name:'Festico Public Holiday'},
+        //https://developers.google.com/calendar
+        {name:'Google Calendar'},
+        //https://www.hebcal.com/home/developer-apis
+        {name:'Hebrew Calendar'},
+        //https://holidayapi.com/
+        {name:'Holidays'},
+        //https://www.lectserve.com/
+        {name:'LectServe'},
+        //https://date.nager.at/
+        {name:'Nager.Date'},
+        //https://nameday.abalin.net/
+        {name:'Nameday Calendar'},
+        //https://www.isdayoff.ru/
+        {name:'Non-Working Days'},
+        //https://github.com/egno/work-calendar
+        {name:'Russian Calendar'},
+        //https://github.com/egno/work-calendar
+        {name:'UK Bank Holidays'},
     ]},
     {name:'Cloud Storage & File Sharing',
     list: [
-        {name:''},
+        //https://anonfiles.com/docs/api
+        {name:'AnonFiles'},
+        //https://bayfiles.com/docs/api
+        {name:'BayFiles'},
+        //https://developer.box.com/
+        {name:'Box'},
+        //https://ddownload.com/api
+        {name:'ddownload'},
+        //https://www.dropbox.com/developers
+        {name:'Dropbox'},
+        //https://www.file.io/
+        {name:'File.io'},
+        //https://www.filestack.com/
+        {name:'Filestack'},
+        //https://gofile.io/api
+        {name:'GoFile'},
+        //https://developers.google.com/drive/
+        {name:'Google drive'},
+        //https://gyazo.com/api/docs
+        {name:'Gyazo'},
+        //https://api.imgbb.com/
+        {name:'Imgbb'},
+        //https://developer.microsoft.com/en-us/onedrive
+        {name:'OneDrive'},
+        //https://getpantry.cloud/
+        {name:'Pantry'},
+        //https://pastebin.com/doc_api
+        {name:'Pastebin'},
+        //https://docs.pinata.cloud/
+        {name:'Pinata'},
+        //https://docs.pinata.cloud/
+        {name:'Quip'},
+        //https://docs.storj.io/dcs/
+        {name:'Storj'},
+        //https://0x0.st/
+        {name:'The Null Pointer'},
+        //https://web3.storage/
+        {name:'Web3 Storage'},
+        
     ]},
     {name:'Continous Integration',
     list: [
-        {name:''},
+        //https://learn.microsoft.com/en-us/rest/api/resourcehealth/
+        {name:'Azure DevOps Health'},
+        //https://api-docs.bitrise.io/
+        {name:'Bitrise'},
+        //https://buddy.works/docs/api/getting-started/overview
+        {name:'Buddy'},
+        //https://circleci.com/docs/api/v1/index.html#circleci-v1-api-overview
+        {name:'CircleCL'},
+        //https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/
+        {name:'Codeship'},
+        //https://docs.travis-ci.com/api/
+        {name:'Travis CL'},
     ]},
     {name:'Cryptocurrency',
     list: [
-        {name:''},
+        //https://www.0x.org/
+        {name:'0x'},
+        //https://1inch.io/api/
+        {name:'1inch'},
+        //https://docs.alchemy.com/
+        {name:'Alchemy Ethereum'},
+        //https://coinlayer.com/
+        {name:'apilayer coinlayer'},
+        //https://github.com/binance/binance-spot-api-docs
+        {name:'Binance'},
+        //https://nova.bitcambio.com.br/api/v3/docs#a-public
+        {name:'Bitcambio'},
+        //https://apiv2.bitcoinaverage.com/
+        {name:'Bitcoinaverage'},
+        //https://bitcoincharts.com/about/exchanges/
+        {name:'BitcoinCharts'},
+        //https://docs.bitfinex.com/docs
+        {name:'Bitfinex'},
+        //https://www.bitmex.com/app/apiOverview
+        {name:'Bitmex'},
+        {name:'Bittrex'},
+        {name:'Block'},
+        {name:'Blockchain'},
+        {name:'blockfrost Cardano'},
+        {name:'Brave NewCoin'},
+        {name:'BtcTurk'},
+        {name:'Bybit'},
+        {name:'CoinAPI'},
+        {name:'Coinbase'},
+        {name:'Coinbase Pro'},
+        {name:'CoinCap'},
+        {name:'CoinDCX'},
+        {name:'CoinDesk'},
+        {name:'CoinGecko'},
+        {name:'Coinigy'},
+        {name:'Coinlib'},
+        {name:'Coinlore'},
+        {name:'CoinMarketCap'},
+        {name:'Coinpaprika'},
+        {name:'CoinRanking'},
+        {name:'Coinremitter'},
+        {name:'CoinStats'},
+        {name:'CryptAPI'},
+        {name:'CryptingUp'},
+        {name:'CryptoCompare'},
+        {name:'CryptoMarket'},
+        {name:'Cryptonator'},
+        {name:'dYdX'},
+        {name:'Ethplorer'},
+        {name:'EXMO'},
+        {name:'FTX'},
+        {name:'Gateio'},
+        {name:'Gemini'},
+        {name:'Hirak Exchange Rates'},
+        {name:'Huobi'},
+        {name:'icy.tools'},
+        {name:'Indodax'},
+        {name:'INFURA Etherium'},
+        {name:'Kraken'},
+        {name:'KuCoin'},
+        {name:'Localbitcoins'},
+        {name:'Mempool'},
+        {name:'MercadoBitcoin'},
+        {name:'Messari'},
+        {name:'Nexchange'},
+        {name:'Nomics'},
+        {name:'NocaDax'},
+        {name:'OKEx'},
+        {name:'Poloniex'},
+        {name:'Solana JSON RPC'},
+        {name:'Technical Analysis'},
+        {name:'CALR'},
+        {name:'WorldCoinIndex'},
+        {name:'ZMOK'},
     ]},
     {name:'Currency Exchange',
     list: [
