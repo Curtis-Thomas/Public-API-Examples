@@ -833,31 +833,293 @@ list: [
     ]},
     {name:'Dictionaries',
     list: [
-        {name:''},
+        //http://ccdb.hemiola.com/
+        {name:'Chinese Character Web'},
+        //https://ctext.org/tools/api
+        {name:'Chinese Text Project'},
+        //https://api.collinsdictionary.com/api/v1/documentation/html/
+        {name:'Collins'},
+        //https://dictionaryapi.dev/
+        {name:'Free Dictionary'},
+        //https://new-kbbi-api.herokuapp.com/
+        {name:'Indonesia Dictionary'},
+        //https://www.linguarobot.io/
+        {name:'Lingua Robot'},
+        //https://dictionaryapi.com/
+        {name:'Merriam-Webster'},
+        //https://owlbot.info/
+        {name:'OwlBot'},
+        //https://developer.oxforddictionaries.com/
+        {name:'Oxford'},
+        //https://www.synonyms.com/synonyms_api.php
+        {name:'Synonyma'},
+        //https://en.wiktionary.org/w/api.php
+        {name:'Wiktionary'},
+        //https://developer.wordnik.com/
+        {name:'Wordnik'},
+        //https://www.wordsapi.com/docs/
+        {name:'Words'},
+
     ]},
     {name:'Documents & Productivity',
     list: [
-        {name:''},
+        //https://airtable.com/developers/web/api/introduction
+        {name:'Airtable'},
+        //https://www.api2convert.com/
+        {name:'Api2convert'},
+        //https://pdflayer.com/
+        {name:'apilayer pdflayer'},
+        //https://developers.asana.com/docs
+        {name:'Asana'},
+        //https://clickup.com/api/
+        {name:'ClickUp'},
+        //https://cloudconvert.com/login
+        {name:'Clockify'},
+        //https://cloudmersive.com/convert-api
+        {name:'CloudConvert'},
+        //https://codestats.net/api-docs
+        {name:'Cloudmersive Document and Data conversion'},
+        //https://codestats.net/api-docs
+        {name:'Code::Stats'},
+        //https://craftmypdf.com/
+        {name:'CraftMyPDF'},
+        //https://docs.flowdash.com/docs/api
+        {name:'Flowdash'},
+        //https://html2pdf.app/
+        {name:'Html2PDF'},
+        //https://developer.ilovepdf.com/
+        {name:'iLovePDF'},
+        //https://developer.atlassian.com/server/jira/platform/rest-apis/
+        {name:'JIRA'},
+        //https://api.mattermost.com/
+        {name:'Mattermost'},
+        //https://reader.postlight.com/web-parser/
+        {name:'Mercury'},
+        //https://api.developer.monday.com/docs
+        {name:'Monday'},
+        //https://developers.notion.com/docs/getting-started
+        {name:'Notion'},
+        //https://developers.pandadoc.com/
+        {name:'PandaDoc'},
+        //https://getpocket.com/developer/
+        {name:'Pocket'},
+        //https://developers.podio.com/
+        {name:'Podio'},
+        //https://prexview.com/
+        {name:'PrexView'},
+        //https://restpack.io/
+        {name:'restpack'},
+        //https://developer.todoist.com/guides/#developing-with-todoist
+        {name:'Todoist'},
+        //https://apilayer.com/
+        {name:'Smart Image Enhancement API'},
+        //https://vector.express/
+        {name:'Vector Express v2.0'},
+        //https://wakatime.com/developers
+        {name:'WakaTime'},
+        //https://zube.io/docs/api
+        {name:'Zube'},
+        
     ]},
     {name:'Email',
     list: [
-        {name:''},
+        //https://www.abstractapi.com/api/email-verification-validation-api
+        {name:'Abstract Email Validation'},
+        //https://mailboxlayer.com/
+        {name:'apilayer mailboxlayer'},
+        //https://www.disify.com/
+        {name:'Disify'},
+        //https://dropmail.me/api/#live-demo
+        {name:'DropMail'},
+        //https://eva.pingutil.com/
+        {name:'EVA'},
+        //https://www.guerrillamail.com/GuerrillaMailAPI.html
+        {name:'Guerrilla Mail'},
+        //https://improvmx.com/api/
+        {name:'ImprovMX'},
+        //https://open.kickbox.com/
+        {name:'Kickbox'},
+        //https://docs.mail.gw/
+        {name:'mail.gw'},
+        //https://docs.mail.tm/
+        {name:'mail.tm'},
+        //https://www.mailboxvalidator.com/api-email-free
+        {name:'MailboxValidator'},
+        //https://www.mailcheck.ai/#documentation
+        {name:'MailCheck.ai'},
+        //https://mailtrap.docs.apiary.io/#
+        {name:'Mailtrap'},
+        //https://docs.sendgrid.com/api-reference/how-to-use-the-sendgrid-v3-api/authentication
+        {name:'Sendgrid'},
+        //https://developers.sendinblue.com/docs
+        {name:'Sendinblue'},
+        //https://verifier.meetchopra.com/docs#/
+        {name:'Verifier'},
+        
     ]},
     {name:'Entertainment',
     list: [
-        {name:''},
+        //https://api.chucknorris.io/
+        {name:'chucknorris.io'},
+        //https://github.com/sameerkumar18/corporate-bs-generator-api
+        {name:'Corporate Buzz Words'},
+        //https://excuser.herokuapp.com/
+        {name:'Excuser'},
+        //http://ww1.aakhilv.me/
+        {name:'Fun Fact'},
+        //https://imgflip.com/api
+        {name:'Imgflip'},
+        //https://mememaker.github.io/API/
+        {name:'Meme Maker'},
+        //https://github.com/theIYD/NaMoMemes
+        {name:'NamoMemes'},
+        //https://uselessfacts.jsph.pl/
+        {name:'Random Useless Facts'},
+        //https://techy-api.vercel.app/
+        {name:'Techy'},
+        //https://github.com/beanboi7/yomomma-apiv2
+        {name:'Yo Momma Jokes'},
+        
     ]},
     {name:'Environment',
     list: [
-        {name:''},
+        //https://docs.breezometer.com/api-documentation/pollen-api/v2/
+        {name:'BreezoMeter Pollen'},
+        //https://docs.carboninterface.com/#/
+        {name:'Carbon Interface'},
+        //https://www.climatiq.io/docs
+        {name:'Climatiq'},
+        //https://docs.cloverly.com/
+        {name:'Cloverly'},
+        //https://corrently.io/books/susscope2-framework-fur-co2-emissionen-strombezug
+        {name:'CO2 Offset'},
+        //https://www.energidataservice.dk/
+        {name:'Danish data service Energi'},
+        //https://gruenstromindex.de/
+        {name:'GrunstromIndex'},
+        //https://www.iqair.com/air-pollution-data-api
+        {name:'IQAir'},
+        //https://api-docs.luchtmeetnet.nl/
+        {name:'Lunchtmeetnet'},
+        //https://data.nationalgrideso.com/
+        {name:'National Grid ESO'},
+        //https://docs.openaq.org/docs
+        {name:'OpenAQ'},
+        //https://pm25.lass-net.org/#apis
+        {name:'PM2.5 Open Data Portal'},
+        //http://www.pm25.in/api_doc
+        {name:'PM25.in'},
+        //https://developer.nrel.gov/docs/solar/pvwatts/v6/
+        {name:'PVWatts'},
+        //https://srpenergy-api-client-python.readthedocs.io/en/latest/api.html
+        {name:'Srp Energy'},
+        //https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v2-0-0
+        {name:'UK Carbon Intensity'},
+        //https://api.websitecarbon.com/
+        {name:'Website Carbon'},
+        
     ]},
     {name:'Events',
     list: [
-        {name:''},
+        //https://www.eventbrite.com/platform/api/
+        {name:'Eventbrite'},
+        //https://platform.seatgeek.com/
+        {name:'SeatGeek'},
+        //https://developer.ticketmaster.com/products-and-docs/apis/getting-started/
+        {name:'Ticketmaster'},
     ]},
     {name:'Finance',
     list: [
-        {name:''},
+        //https://www.abstractapi.com/api/vat-validation-rates-api
+        {name:'Abstract VAT Validation'},
+        //https://aletheiaapi.com/
+        {name:'Aletheia'},
+        //https://alpaca.markets/docs/api-references/market-data-api/
+        {name:'Alpaca'},
+        //https://www.alphavantage.co/
+        {name:'Alpha Vantage'},
+        //https://marketstack.com/
+        {name:'apilayer marketstack'},
+        //https://developers.bb.com.br/home
+        {name:'Banco do Brasil'},
+        //https://apilayer.com/marketplace/bank_data-api
+        {name:'Bank Data API'},
+        //https://www.billplz.com/api#introduction
+        {name:'Billplz'},
+        //https://binlist.net/
+        {name:'Binlist'},
+        //https://boleto.cloud/
+        {name:'Boleto.Cloud'},
+        //https://sandbox.developerhub.citi.com/api-catalog-list
+        {name:'Citi'},
+        //https://www.econdb.com/api/series/CPIUS/?page=1
+        {name:'Econdb'},
+        //https://fiscaldata.treasury.gov/api-documentation/
+        {name:'Fed Treasury'},
+        //https://finage.co.uk/
+        {name:'Finage'},
+        //https://site.financialmodelingprep.com/developer/docs/
+        {name:'Financial Modeling Prep'},
+        //https://finnhub.io/docs/api
+        {name:'Finnhub'},
+        //https://fred.stlouisfed.org/docs/api/fred/
+        {name:'FRED'},
+        //https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule
+        {name:'Front Accounting APIs'},
+        //https://hotstoks.com/?utm_source=public-apis
+        {name:'Hotstoks'},
+        //https://iexcloud.io/docs/api/
+        {name:'IEX Cloud'},
+        //https://labs.ig.com/gettingstarted
+        {name:'IG'},
+        //https://www.mfapi.in/
+        {name:'Indian Mutual Fund'},
+        //https://intrinio.com/
+        {name:'Intrinio'},
+        //https://docs.klarna.com/api/payments/
+        {name:'Klarna'},
+        //https://www.mercadopago.com.br/developers/es/reference
+        {name:'MercadoPago'},
+        //https://mono.co/
+        {name:'Mono'},
+        //https://docs.moov.io/api/
+        {name:'Moov'},
+        //https://nordigen.com/en/account_information_documenation/integration/quickstart_guide/
+        {name:'Nordigen'},
+        //https://www.openfigi.com/api
+        {name:'OpenFIGI'},
+        //https://plaid.com/en-eu/
+        {name:'Plaid'},
+        //https://polygon.io/
+        {name:'Polygon'},
+        //https://portfoliooptimizer.io/
+        {name:'Portfolio Optimizer'},
+        //https://razorpay.com/docs/#home-payments
+        {name:'Razorpay IFSC'},
+        //https://github.com/Real-time-finance/finance-websocket-API/
+        {name:'Real Time Finance'},
+        //https://www.sec.gov/edgar/sec-api-documentation
+        {name:'SEC EDGAR Data'},
+        //https://smartapi.angelbroking.com/
+        {name:'SmartAPI'},
+        //https://www.stockdata.org/
+        {name:'StockData'},
+        //https://www.styvio.com/
+        {name:'Styvio'},
+        //https://apilayer.com/marketplace/tax_data-api
+        {name:'Tax Data API'},
+        //https://developer.tradier.com/
+        {name:'Tradier'},
+        //https://twelvedata.com/
+        {name:'Tewlve Data'},
+        //https://tradestie.com/apps/reddit/api/
+        {name:'WallstreetBets'},
+        //https://www.yahoofinanceapi.com/
+        {name:'Yahoo finance'},
+        //https://api.youneedabudget.com/
+        {name:'YNAB'},
+        //https://www.zoho.com/books/api/v3/introduction/#organization-id
+        {name:'Zoho Books'},
     ]},
     {name:'Food & Drink',
     list: [
