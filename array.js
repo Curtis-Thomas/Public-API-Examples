@@ -1240,73 +1240,304 @@ list: [
         {name:'FreeToGame'},
         //https://asli-fun-fact-api.herokuapp.com/
         {name:'Fun Facts'},
+        //https://api.funtranslations.com/
         {name:'FunTranslations'},
+        //https://www.gamerpower.com/api-read
         {name:'GamerPower'},
+        //https://gdbrowser.com/api
         {name:'GdBrowser'},
+        //https://github.com/sameerkumar18/geek-joke-api
         {name:'Geek-Jokes'},
+        //https://genshin.dev/
         {name:'Genshin Impact'},
+        //https://www.giantbomb.com/api/documentation/
         {name:'Giant Bomb'},
+        //https://github.com/favware/graphql-pokemon
         {name:'GraphQL Pokemon'},
+        //https://wiki.guildwars2.com/wiki/API:Main
         {name:'Guild Wars 2'},
+        //https://github.com/rubensayshi/gw2spidy/wiki
         {name:'GW2Spidey'},
+        //https://developer.haloapi.com/
         {name:'Halo'},
+        //https://hearthstoneapi.com/
         {name:'Hearthstone'},
+        //https://rapidapi.com/Ziggoto/api/humble-bundle
         {name:'Humble Bundle'},
+        //https://humorapi.com/
         {name:'Humor'},
+        //https://api.hypixel.net/
         {name:'Hypixel'},
+        //https://github.com/gadhagod/Hyrule-Compendium-API
         {name:'Hyrule Compendium'},
+        //https://hytale-api.com/
         {name:'Hytale'},
+        //https://api-docs.igdb.com/#getting-started
         {name:'IGDB.com'},
+        //https://sv443.net/jokeapi/v2/
         {name:'JokeAPI'},
+        //https://jokes.one/api/joke/
         {name:'Jokes One'},
+        //http://jservice.io/
         {name:'Jservice'},
+        //https://lichess.org/api
         {name:'Lichess'},
+        //https://magicthegathering.io/
         {name:'Magic The Gathering'},
+        //https://mario-kart-tour-api.herokuapp.com/
         {name:'Mario Kart Tour'},
-        {name:'MArvel'},
+        //https://developer.marvel.com/
+        {name:'Marvel'},
+        //https://api.mcsrvstat.us/
         {name:'MineCraft Server Status'},
+        //https://www.mmobomb.com/api
         {name:'MMO Games'},
+        //https://docs.mod.io/#getting-started
         {name:'mod.io'},
+        //https://wiki.vg/Mojang_API
         {name:'Mojang'},
+        //https://docs.mhw-db.com/
         {name:'Monster Hunter World'},
+        //https://opentdb.com/api_config.php
         {name:'Open Trivia'},
+        //https://developers.pandascore.co/docs
         {name:'PandaScore'},
+        //https://www.pathofexile.com/developer/docs
         {name:'PAth of Exile'},
+        //https://playerdb.co/
         {name:'PlayerDB'},
+        //https://pokeapi.co/
         {name:'Pokeapi'},
+        //https://github.com/mazipan/graphql-pokeapi
         {name:'PokeAPI (GraphQL)'},
+        //https://pokemontcg.io/
         {name:'Pokemon TCG'},
+        //https://psychonauts-api.netlify.app/
         {name:'Psychonauts'},
+        //https://developer.pubg.com/
         {name:'PUBG'},
+        //https://github.com/deltadex7/puyodb-api-deno
         {name:'Puyo Nexus'},
+        //https://quizapi.io/
         {name:'quizapi.io'},
+        //https://raider.io/api
         {name:'Raider'},
+        //https://rawg.io/apidocs
         {name:'RAWG.io'},
+        //https://rickandmortyapi.com/
         {name:'Rick and Morty'},
+        //https://developer.riotgames.com/
         {name:'Riot Games'},
+        //https://rps101.pythonanywhere.com/api
         {name:'RPS 101'},
+        //https://runescape.wiki/w/Application_programming_interface
         {name:'Runescape'},
+        //https://github.com/JessVel/sakura-card-captor-api
         {name:'Sakura CardCaptor'},
+        //https://scryfall.com/docs/api
         {name:'Scryfall'},
+        //https://spacetraders.io/?rel=pub-apis
         {name:'SpaceTradersAPI'},
+        //https://github.com/Revadike/InternalSteamWebAPI/wiki
         {name:'Steam'},
+        //https://superheroapi.com/
         {name:'SuperHeroes'},
+        //https://tcgdex.dev/
         {name:'TCGdex'},
+        //https://docs.tebex.io/plugin/
         {name:'Tebex'},
+        //https://tetr.io/about/api/
         {name:'TETR.IO'},
+        //https://www.tronalddump.io/
         {name:'Tronald Dump'},
+        //https://docs.universalis.app/
         {name:'Universalis'},
+        //https://valorant-api.com/
         {name:'Valorant (non-official)'},
+        //https://api.wfstats.cf/
         {name:'Warface (non-official)'},
+        //https://developers.wargaming.net/
         {name:'Wargaming.net'},
+        //https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md
         {name:'When is next MCU film'},
+        //https://xkcd.com/json.html
         {name:'xkcd'},
+        //https://ygoprodeck.com/api-guide/
         {name:'Yu-Gi-Oh!'},
 
     ]},
     {name:'Geocoding',
     list: [
-        {name:''},
+        //https://www.abstractapi.com/api/ip-geolocation-api
+        {name:'Abstract IP Geolocation'},
+        //https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json
+        {name:'Actinia Grass GIS'},
+        //https://github.com/kamikazechaser/administrative-divisions-db
+        {name:'administrive-divisions-db'},
+        //https://adresse.data.gouv.fr/
+        {name:'adresse.data.gouv.fr'},
+        //https://sys.airtel.lv/ip2country/1.1.1.1/?full=true
+        {name:'Airtel IP'},
+        //https://apiip.net/
+        {name:'Apiip'},
+        //https://ipstack.com/
+        {name:'apilayer ipstack'},
+        //http://battuta.medunes.net/
+        {name:'Battuta'},
+        //https://www.bigdatacloud.com/docs/ip-geolocation
+        {name:'BigDataCloud'},
+        //https://www.microsoft.com/en-us/maps
+        {name:'Bing Maps'},
+        //https://www.getthedata.com/bng2latlong
+        {name:'bng2latlong'},
+        //https://github.com/M-Media-Group/Cartes.io/wiki/API
+        {name:'Cartes.io'},
+        //http://cep.la/
+        {name:'Cep.la'},
+        //https://www.citysdk.eu/citysdk-toolkit/
+        {name:'CitySDK'},
+        //https://country.is/
+        {name:'Country'},
+        //https://countrystatecity.in/
+        {name:'CountryStateCity'},
+        //https://gis.ducks.org/datasets/du-university-chapters/api
+        {name:'Ducks Unlimited'},
+        //https://ipbase.com/
+        {name:'FreeGeoIP'},
+        //https://api.gouv.fr/les-api/api-geo
+        {name:'GeoApi'},
+        //https://www.geoapify.com/maps-api
+        {name:'Geoapify'},
+        //https://www.geocod.io/
+        {name:'Geocod.io'},
+        //https://geocode.xyz/api
+        {name:'Geocode.xyz'},
+        //https://geocodify.com/
+        {name:'Geocodify.com'},
+        //https://geodata.gov.gr/en/
+        {name:'Geodata.gov.gr'},
+        //https://www.geodatasource.com/web-service
+        {name:'GeoDataSource'},
+        //http://geodb-cities-api.wirefreethought.com/
+        {name:'GeoDB Cities'},
+        //https://geographql.netlify.app/
+        {name:'GeographQL'},
+        //https://www.geojs.io/
+        {name:'GeoJS'},
+        //https://geokeo.com/
+        {name:'Geokeo'},
+        //http://www.geonames.org/export/web-services.html
+        {name:'GeoNames'},
+        //https://www.geoplugin.com/
+        {name:'geoPlugin'},
+        //https://developers.google.com/earth-engine/
+        {name:'Google Earth Enghine'},
+        //https://developers.google.com/maps/
+        {name:'Google Maps'},
+        //https://github.com/lennertVanSever/graphcountries
+        {name:'Graph Countries'},
+        //https://stefanbohacek.com/project/hellosalut-api/
+        {name:'HelloSalut'},
+        //https://developer.here.com/
+        {name:'HERE Maps'},
+        //chrome-extension://cjpalhdlnbpafiamejdnhcphjbkeiagm/document-blocked.html?details=%7B%22url%22%3A%22http%3A%2F%2Fiyfbodn.com%2F%3Fdn%3Dhirak.site%26pid%3D9POT3387I%26pbsubid%3Db882e239-5827-b68e-4721-39df433bb4d1%26noads%3Dhttp%253A%252F%252Fiyfbodn.com%252F%253Fdn%253Dhirak.site%2526skipskenzo%253Dtrue%22%2C%22hn%22%3A%22iyfbodn.com%22%2C%22dn%22%3A%22iyfbodn.com%22%2C%22fs%22%3A%22%7C%7Ciyfbodn.com%5E%22%7D
+        {name:'Hirak IP to Country'},
+        //https://geodata.gov.hk/gs/
+        {name:'Hong Kong GeoData Store'},
+        //https://servicodados.ibge.gov.br/api/docs/
+        {name:'IBGE'},
+        //https://ip2country.info/
+        {name:'IP 2 Country'},
+        //https://ipinfo.io/
+        {name:'IP Address Details'},
+        //https://www.ipvigilante.com/
+        {name:'IP Vigilante'},
+        //https://ip-api.com/docs
+        {name:'ip-api'},
+        //https://www.ip2location.com/web-service/ip2location
+        {name:'IP2Location'},
+        //https://www.ip2location.com/web-service/ip2proxy
+        {name:'IP2Proxy'},
+        //https://ipapi.co/api/#introduction
+        {name:'ipapi.co'},
+        //https://ipapi.com/
+        {name:'ipapi.com'},
+        //https://api.techniknews.net/ipgeo/84.231.19.214
+        {name:'IPGEO'},
+        //https://ipgeolocation.io/
+        {name:'ipgeolocation'},
+        //https://www.ipinfodb.com/api
+        {name:'IPInfoDB'},
+        //https://apis.map.kakao.com/
+        {name:'Kakao Maps'},
+        //https://tools.keycdn.com/geo
+        {name:'keycdn IP Location Finder'},
+        //https://web.locationiq.com/docs
+        {name:'LocationIQ'},
+        //https://map.longdo.com/docs/
+        {name:'Longdo Map'},
+        //https://docs.mapbox.com/
+        {name:'Mapbox'},
+        //https://developer.mapquest.com/
+        {name:'Mapquest'},
+        //https://github.com/IcaliaLabs/sepomex
+        {name:'Mexico'},
+        //https://nominatim.org/release-docs/latest/api/Overview/
+        {name:'Nominatim'},
+        //https://www.onemap.gov.sg/docs/
+        {name:'One Map, Singapore'},
+        //https://onwater.io/
+        {name:'OnWater'},
+        //https://www.opentopodata.org/
+        {name:'Open Topo Data'},
+        //https://opencagedata.com/
+        {name:'OpenCage'},
+        //https://openrouteservice.org/
+        {name:'openrouteservice.org'},
+        //https://wiki.openstreetmap.org/wiki/API
+        {name:'OpenStreetMap'},
+        //https://pinballmap.com/api/v1/docs
+        {name:'Pinball Map'},
+        //https://positionstack.com/
+        {name:'positionstack'},
+        //https://postali.app/api
+        {name:'Postali'},
+        //http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json
+        {name:'PostcodeData.nl'},
+        //https://postcodes.io/
+        {name:'Postcodes.io'},
+        //https://queimadas.dgi.inpe.br/queimadas/dados-abertos/
+        {name:'Queimadas INPE'},
+        //https://restcountries.com/
+        {name:'REST Countries'},
+        //https://www.roadgoat.com/business/cities-api
+        {name:'RoadGoat Cities'},
+        //https://rapidapi.com/victorkarangwa4/api/rwanda
+        {name:'Rwanda Locations'},
+        //https://github.com/slftool/slftool.github.io/blob/master/API.md
+        {name:'SLF'},
+        //https://spotsense.io/
+        {name:'SpotSense'},
+        //https://developer.tomtom.com/
+        {name:'Telize TomTom'},
+        //https:uebermaps.com/api/v2
+        {name:'Uebermaps'},
+        //https://www.smarty.com/docs/cloud/us-zipcode-api
+        {name:'US ZipCode'},
+        //https://api.mapserv.utah.gov/
+        {name:'Utah AGRC'},
+        //https://viacep.com.br/
+        {name:'ViaCep'},
+        //https://what3words.com/resolved.apples.gets
+        {name:'What3Words'},
+        //https://yandex.com/dev/maps/geocoder/
+        {name:'Yandex.Maps Geocoder'},
+        //https://www.zipcodeapi.com/
+        {name:'ZipCodeAPI'},
+        //https://www.zippopotam.us/
+        {name:'Zippopotam.us'},
+        //https://ziptasticapi.com/
+        {name:'Ziptastic'},
     ]},
     {name:'Government',
     list: [
