@@ -31,7 +31,7 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
     let animals3 = document.createElement('button')
     animals3.textContent = arr[0]['list'][2]['name']
     animals3.setAttribute("id", "btnAnimals3");
-    animals3.setAttribute("class", "green");
+    animals3.setAttribute("class", "blue");
     resultsContainer.append(animals3)
 
     document.querySelector('#btnAnimals3').addEventListener('click',function(){
@@ -40,13 +40,23 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
             let url = `https://cat-fact.herokuapp.com/facts`
             fetch(url)
                 .then((response) => response.json())
-                .then((data)=> renderAPI3(data) )      
+                .then((data)=> renderAPI(data) )      
         }
         fetchAPI3()
-        function renderAPI3(fact){
+        function renderAPI(fact){
+            let infoBox = document.createElement('p')
+            infoBox.textContent = 'Info: Daily cat facts'
+            infoBox.setAttribute('class','infobox')
+            resultsContainer.append(infoBox) 
+
+
             let fact1 = document.createElement('h2')
             fact1.textContent = fact[0]['text']
-            resultsContainer.append(fact1)
+            fact1.style.backgroundColor = 'white'
+            fact1.style.color = '#3A3533'
+            fact1.style.border = 'solid 1px #E81C24'
+            fact1.style.padding = '15px'
+            resultsContainer.append(fact1) 
         }
     })
 

@@ -77,9 +77,29 @@ border-radius: 20px;}
     background-color: rgba(255, 0, 0, 0.658);
 }
 
+.blue{
+    background-color: rgba(3, 44, 105, 0.281);
+    box-shadow: inset 5px 5px 10px rgba(0, 60, 255, 0.979);
+    border: 1px solid rgba(0, 17, 255, 0.719);
+
+}
+
+.blue:hover {
+    background-color: rgba(3, 44, 105, 0.952)
+
+}
+
+
+
+
 .main { display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;}
 
+.infobox {
+    background-color: rgba(255, 235, 205, 0.74);
+    border-radius: 20px;
+    padding: 20px;
+}
 
 

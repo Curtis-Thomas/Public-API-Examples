@@ -120,18 +120,65 @@ document.querySelector('#btnGamesComics').addEventListener('click', function(){
 
     gamesComics1.textContent = arr[23]['list'][1]['name']
     gamesComics1.setAttribute("id", "btnGamesComics1");
-    gamesComics1.setAttribute("class", "green");
+    gamesComics1.setAttribute("class", "blue");
     resultsContainer.append(gamesComics1)
 
     document.querySelector('#btnGamesComics1').addEventListener('click',function(){
         function fetchAPI(){
+            clearUI()
+            
             let url = `https://www.amiiboapi.com/api/amiibo/?name=mario`
             fetch(url)
                 .then((response) => response.json())
-                .then((data)=> console.log(data)) 
-                // .then((data)=> renderAPI4(data) )       
+                .then((data)=> renderAPI(data))
+                // .then((data)=> console.log(data)) 
         }
         fetchAPI()
+        function renderAPI(results){
+            
+            let infoBox = document.createElement('p')
+            infoBox.textContent = 'Info: An Amiibo database that holds all amiibo information in a single API.'
+            infoBox.setAttribute('class','infobox')
+            resultsContainer.append(infoBox) 
+            
+        
+
+            let result1 = document.createElement('h2')
+            result1.textContent = 'Series: '+ results.amiibo[0].amiiboSeries
+            result1.style.backgroundColor = 'white'
+            result1.style.color = '#3A3533'
+            result1.style.border = 'solid 1px #3399CC'
+            result1.style.padding = '15px'
+            resultsContainer.append(result1) 
+
+            let result2 = document.createElement('h2')
+            result2.textContent = 'Character: ' + results.amiibo[0].character
+            result2.style.backgroundColor = 'white'
+            result2.style.color = '#3A3533'
+            result2.style.border = 'solid 1px #3399CC'
+            result2.style.padding = '15px'
+            resultsContainer.append(result2) 
+
+            let result3 = document.createElement('h2')
+            result3.textContent = 'Game Series: '+ results.amiibo[0].gameSeries
+            result3.style.backgroundColor = 'white'
+            result3.style.color = '#3A3533'
+            result3.style.border = 'solid 1px #3399CC'
+            result3.style.padding = '15px'
+            resultsContainer.append(result3) 
+
+            let result4 = document.createElement('h2')
+            result4.textContent = 'Name: ' + results.amiibo[0].name
+            result4.style.backgroundColor = 'white'
+            result4.style.color = '#3A3533'
+            result4.style.border = 'solid 1px #3399CC'
+            result4.style.padding = '15px'
+            resultsContainer.append(result4) 
+
+            let result5 = document.createElement('img')
+            result5.src = results.amiibo[0].image
+            resultsContainer.append(result5) 
+        }
     })
 
     gamesComics2.textContent = arr[23]['list'][2]['name']

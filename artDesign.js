@@ -51,9 +51,11 @@ document.querySelector('#btnArtDesign').addEventListener('click', function(){
             fetch(url)
                 .then((response) => response.json())
                 .then((data)=> console.log(data))   
-                // .then((data)=> renderAPI4(data) )    
+                // .then((data)=> renderAPI(data) )    
         }
         fetchAPI()
+       
+        
     })
     
     artDesign2.textContent = arr[3]['list'][2]['name']
