@@ -1123,11 +1123,186 @@ list: [
     ]},
     {name:'Food & Drink',
     list: [
-        {name:''},
+        //https://baconmockup.com/
+        {name:'BaconMockup'},
+        //https://chompthis.com/api/
+        {name:'Chomp'},
+        //https://coffee.alexflipnote.dev/
+        {name:'Coffee'},
+        //https://developer.edamam.com/edamam-docs-nutrition-api
+        {name:'Edamam Nutrition'},
+        //https://developer.edamam.com/edamam-docs-recipe-api
+        {name:'Edamam recipes'},
+        //https://github.com/surhud004/Foodish#readme
+        {name:'Foodish'},
+        //https://fruityvice.com/
+        {name:'Fruityvice'},
+        //https://developer.kroger.com/reference/
+        {name:'Kroger'},
+        //https://github.com/heycarsten/lcbo-api
+        {name:'LCBO'},
+        //https://www.openbrewerydb.org/
+        {name:'Open Brewery DB'},
+        // /https://world.openfoodfacts.org/data
+        {name:'Open Food Facts'},
+        //https://punkapi.com/
+        {name:'PunkAPI'},
+        //https://rustybeer.herokuapp.com/
+        {name:'Rustybeer'},
+        //https://spoonacular.com/food-api
+        {name:'Spoonacular'},
+        //https://api-portal.systembolaget.se/
+        {name:'Systembolaget'},
+        //https://github.com/evz/tacofancy-api
+        {name:'TacoFancy'},
+        //https://rapidapi.com/apidojo/api/tasty/
+        {name:'Tasty'},
+        //https://github.com/andyklimczak/TheReportOfTheWeek-API
+        {name:'The Report of the Week'},
+        //https://www.thecocktaildb.com/api.php
+        {name:'TheCocktailDB'},
+        //https://www.themealdb.com/api.php
+        {name:'TheMealDB'},
+        // /https://untappd.com/api/docs
+        {name:'Untapped'},
+        //http://nypl.github.io/menus-api/
+        {name:'What\'s on the menu?'},
+        //https://whiskyhunter.net/api/
+        {name:'WhiskyHunter'},
+        //https://zestfuldata.com/
+        {name:'Zestful'},
     ]},
     {name:'Games & Comics',
     list: [
-        {name:''},
+        //https://age-of-empires-2-api.herokuapp.com/
+        {name:'Age of Empires II'},
+        //https://amiiboapi.com/
+        {name:'AmiiboAPI'},
+        //https://acnhapi.com/
+        {name:'Animal Crossing: New Horizons'},
+        //https://github.com/didadadida93/autochess-vng-api
+        {name:'Autochess VNG'},
+        //https://github.com/bartervg/barter.vg/wiki
+        {name:'Barter.vg'},
+        //https://develop.battle.net/documentation/guides/getting-started
+        {name:'Battle.net'},
+        //https://boardgamegeek.com/wiki/page/BGG_XML_API2
+        {name:'Board Game Geek'},
+        //https://developer.brawlstars.com/#/
+        {name:'Brawl Stars'},
+        //https://apidocs.cheapshark.com/
+        {name:'Bugsnax'},
+        //https://apidocs.cheapshark.com/
+        {name:'CheapShark'},
+        //https://www.chess.com/news/view/published-data-api
+        {name:'Chess.com'},
+        //http://www.icndb.com/api/
+        {name:'Chuck Norris Database'},
+        //https://developer.clashofclans.com/#/
+        {name:'Clash of Clans'},
+        //https://developer.clashroyale.com/#/
+        {name:'Clash Royale'},
+        //https://comicvine.gamespot.com/api/documentation
+        {name:'Comic Vine'},
+        //https://crafatar.com/
+        {name:'Casfatar'},
+        //https://battle.crossuniverse.net/apiDocs.html
+        {name:'Cross Universe'},
+        //https://deckofcardsapi.com/
+        {name:'Deckl of Cards'},
+        //https://bungie-net.github.io/multi/index.html
+        {name:'Destiny The Game'},
+        //https://digimon-api.vercel.app/
+        {name:'Digimon Information'},
+        //https://documenter.getpostman.com/view/14059948/TzecB4fH
+        {name:'Digimon TCG'},
+        //https://disneyapi.dev/
+        {name:'Disney'},
+        //https://docs.opendota.com/
+        {name:'Dota 2'},
+        //https://www.dnd5eapi.co/docs/
+        {name:'Dungeons and Dragons'},
+        //https://open5e.com/
+        {name:'Dungeons and Dragons (Alternate)'},
+        //https://esi.evetech.net/ui
+        {name:'Eve Online'},
+        //https://ffxivcollect.com/
+        {name:'FFXIV Collect'},
+        //https://www.easports.com/fifa/ultimate-team/api/fut/item
+        {name:'FIFA Ultimate Team'},
+        //https://xivapi.com/
+        {name:'Final Fantacy XIV'},
+        //https://fortnitetracker.com/site-api
+        {name:'Fortnite'},
+        //https://docs.forza-api.tk/
+        {name:'Forza'},
+        // /https://www.freetogame.com/api-doc
+        {name:'FreeToGame'},
+        //https://asli-fun-fact-api.herokuapp.com/
+        {name:'Fun Facts'},
+        {name:'FunTranslations'},
+        {name:'GamerPower'},
+        {name:'GdBrowser'},
+        {name:'Geek-Jokes'},
+        {name:'Genshin Impact'},
+        {name:'Giant Bomb'},
+        {name:'GraphQL Pokemon'},
+        {name:'Guild Wars 2'},
+        {name:'GW2Spidey'},
+        {name:'Halo'},
+        {name:'Hearthstone'},
+        {name:'Humble Bundle'},
+        {name:'Humor'},
+        {name:'Hypixel'},
+        {name:'Hyrule Compendium'},
+        {name:'Hytale'},
+        {name:'IGDB.com'},
+        {name:'JokeAPI'},
+        {name:'Jokes One'},
+        {name:'Jservice'},
+        {name:'Lichess'},
+        {name:'Magic The Gathering'},
+        {name:'Mario Kart Tour'},
+        {name:'MArvel'},
+        {name:'MineCraft Server Status'},
+        {name:'MMO Games'},
+        {name:'mod.io'},
+        {name:'Mojang'},
+        {name:'Monster Hunter World'},
+        {name:'Open Trivia'},
+        {name:'PandaScore'},
+        {name:'PAth of Exile'},
+        {name:'PlayerDB'},
+        {name:'Pokeapi'},
+        {name:'PokeAPI (GraphQL)'},
+        {name:'Pokemon TCG'},
+        {name:'Psychonauts'},
+        {name:'PUBG'},
+        {name:'Puyo Nexus'},
+        {name:'quizapi.io'},
+        {name:'Raider'},
+        {name:'RAWG.io'},
+        {name:'Rick and Morty'},
+        {name:'Riot Games'},
+        {name:'RPS 101'},
+        {name:'Runescape'},
+        {name:'Sakura CardCaptor'},
+        {name:'Scryfall'},
+        {name:'SpaceTradersAPI'},
+        {name:'Steam'},
+        {name:'SuperHeroes'},
+        {name:'TCGdex'},
+        {name:'Tebex'},
+        {name:'TETR.IO'},
+        {name:'Tronald Dump'},
+        {name:'Universalis'},
+        {name:'Valorant (non-official)'},
+        {name:'Warface (non-official)'},
+        {name:'Wargaming.net'},
+        {name:'When is next MCU film'},
+        {name:'xkcd'},
+        {name:'Yu-Gi-Oh!'},
+
     ]},
     {name:'Geocoding',
     list: [
