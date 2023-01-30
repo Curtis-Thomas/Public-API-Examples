@@ -49,7 +49,6 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
             infoBox.setAttribute('class','infobox')
             resultsContainer.append(infoBox) 
 
-
             let fact1 = document.createElement('h2')
             fact1.textContent = fact[0]['text']
             fact1.style.backgroundColor = 'white'
@@ -57,7 +56,6 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
             fact1.style.border = 'solid 1px #E81C24'
             fact1.style.padding = '15px'
             fact1.style.width = '90%'
-           
             fact1.style.textAlign = 'center'
             resultsContainer.append(fact1) 
         }
@@ -72,18 +70,17 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
     document.querySelector('#btnAnimals4').addEventListener('click',function(){
         clearUI()
 
+        
+
         let infoBox = document.createElement('p')
-            infoBox.textContent = 'Info: Cat as a service (cats pictures and gifs)'
-            infoBox.setAttribute('class','infobox')
-            resultsContainer.append(infoBox) 
+        infoBox.textContent = 'Info: Cat as a service (cats pictures and gifs)'
+        infoBox.setAttribute('class','infobox')
+        resultsContainer.append(infoBox) 
 
         let another = document.createElement('button')
         another.textContent = 'Another'
+        another.setAttribute("class", "another");
         another.setAttribute("id", "another");
-        another.style.display = 'block'
-        another.style.width = '60%'
-        another.style.marginLeft = '15%'
-        another.style.marginRight = '15%'
         resultsContainer.append(another)
 
 
@@ -99,6 +96,7 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
            
             let pic = document.createElement('img')
             pic.setAttribute("id", "img1");
+            pic.style.height = '400px'
             pic.src = 'https://cataas.com'+ picture.url
             resultsContainer.append(pic)
         }
@@ -131,11 +129,8 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
 
         let another = document.createElement('button')
         another.textContent = 'Another'
+        another.setAttribute("class", "another");
         another.setAttribute("id", "another");
-        another.style.display = 'block'
-        another.style.width = '60%'
-        another.style.marginLeft = '15%'
-        another.style.marginRight = '15%'
         resultsContainer.append(another)
 
 
@@ -179,11 +174,8 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
 
         let another = document.createElement('button')
         another.textContent = 'Another'
+        another.setAttribute("class", "another");
         another.setAttribute("id", "another");
-        another.style.display = 'block'
-        another.style.width = '60%'
-        another.style.marginLeft = '15%'
-        another.style.marginRight = '15%'
         resultsContainer.append(another)
 
 
@@ -199,6 +191,7 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
            
             let pic = document.createElement('img')
             pic.setAttribute("id", "img1");
+            pic.style.height = '400px'
             pic.src = picture.message
             resultsContainer.append(pic)
         }
@@ -226,11 +219,8 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
         clearUI()
         let another = document.createElement('button')
         another.textContent = 'Another'
+        another.setAttribute("class", "another");
         another.setAttribute("id", "another");
-        another.style.display = 'block'
-        another.style.width = '60%'
-        another.style.marginLeft = '15%'
-        another.style.marginRight = '15%'
         resultsContainer.append(another)
 
         function fetchAPI8(){
@@ -314,11 +304,8 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
 
         let another = document.createElement('button')
         another.textContent = 'Another'
+        another.setAttribute("class", "another");
         another.setAttribute("id", "another");
-        another.style.display = 'block'
-        another.style.width = '60%'
-        another.style.marginLeft = '15%'
-        another.style.marginRight = '15%'
         resultsContainer.append(another)
 
         function fetchAPI12(){
@@ -395,11 +382,8 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
 
         let another = document.createElement('button')
         another.textContent = 'Another'
+        another.setAttribute("class", "another");
         another.setAttribute("id", "another");
-        another.style.display = 'block'
-        another.style.width = '60%'
-        another.style.marginLeft = '15%'
-        another.style.marginRight = '15%'
         resultsContainer.append(another)
 
         function fetchAPI18(){
@@ -415,8 +399,7 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
             let pic = document.createElement('img')
             pic.setAttribute("id", "img1");
             pic.src = picture.url
-            pic.style.width = '300px'
-            pic.style.border = 'solid 1px black'
+            pic.style.height = '400px'
             resultsContainer.append(pic)
         }
         document.querySelector('#another').addEventListener('click', function(){
@@ -476,11 +459,8 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
 
         let another = document.createElement('button')
         another.textContent = 'Another'
+        another.setAttribute("class", "another");
         another.setAttribute("id", "another");
-        another.style.display = 'block'
-        another.style.width = '60%'
-        another.style.marginLeft = '15%'
-        another.style.marginRight = '15%'
         resultsContainer.append(another)
 
         function fetchAPI20(){
@@ -496,8 +476,7 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
             let pic = document.createElement('img')
             pic.setAttribute("id", "img1");
             pic.src = picture.image
-            pic.style.width = '300px'
-            pic.style.border = 'solid 1px black'
+            pic.style.height = '400px'
             resultsContainer.append(pic)
         }
         document.querySelector('#another').addEventListener('click', function(){
@@ -528,11 +507,8 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
 
         let another = document.createElement('button')
         another.textContent = 'Another'
+        another.setAttribute("class", "another");
         another.setAttribute("id", "another");
-        another.style.display = 'block'
-        another.style.width = '60%'
-        another.style.marginLeft = '15%'
-        another.style.marginRight = '15%'
         resultsContainer.append(another)
 
         function fetchAPI22(){
@@ -548,8 +524,7 @@ document.querySelector('#btnAnimals').addEventListener('click', function(){
             let pic = document.createElement('img')
             pic.setAttribute("id", "img1");
             pic.src = picture['0']
-            pic.style.width = '300px'
-            pic.style.border = 'solid 1px black'
+            pic.style.height = '400px'
             resultsContainer.append(pic)
         }
         document.querySelector('#another').addEventListener('click', function(){

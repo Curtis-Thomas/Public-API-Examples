@@ -1,108 +1,141 @@
+html{
+    background-color: #272640;  
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.25rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
 h1 {
     color: white;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .home-btn-container {
-    padding: 30px;
-    color: white;
-    /* background-color: blanchedalmond; */
+    color: white;  
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
+
+.color-info{
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    
+}
+
 .home-btn-container button {
     padding: 10px;
     font-size: 1.5rem;
+    color: rgb(236, 224, 255);
+    background-color: #201D34;
+    border-radius: 20px 0px;
+    border: solid 1px #201D34;
 }
 
 
 .btnHome:hover{
-    background-color: rgb(110, 110, 110);
+    color: white;
+    background-color: #181627;
+    border: solid 1px #181627;
 }
+
 .home-screen button {
     width: 32%;
-   
+    border-radius: 20px 0px;   
 }
+
 .column {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
 }
 
-html{
-    background-color: rgb(53, 53, 53);
-    
-}
 
 button {
     display: block;
-margin-top: 5px;
-margin-bottom: 10px;
-padding: 15px;
-background-color: rgba(189, 189, 189, 0);
-color: rgb(255, 255, 255);
-cursor: pointer;
-width: 26%;
-border-radius: 20px;}
-
-
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: rgba(189, 189, 189, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 26%;
+    border-radius: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
 
 .green {
-    background-color: rgba(2, 107, 2, 0.384);
-    box-shadow: inset 5px 5px 10px rgb(2, 107, 2);
-    border: 1px solid rgba(0, 128, 0, 0.712);
-}
-.green:hover {
-    background-color: green;
-    
+    background-color: #006466;
+    border: 1px solid #006466;
 }
 
+.green:hover {
+    background-color: #00646600;
+    font-weight: 500; 
+}
 
 .yellow{
-    background-color: rgba(126, 126, 0, 0.384);
-    box-shadow: inset 5px 5px 10px rgb(126, 126, 0);
-    border: 1px solid rgba(255, 255, 0, 0.473);
+    background-color: #E3B5A4;
+    border: 1px solid #E3B5A4;
+    color: black;
 }
+
 .yellow:hover{
-    background-color: rgba(255, 255, 0, 0.63);
+    background-color: #e3b5a400;
+    color: white;
+    font-weight: 500;
 }
 
 
 .red{
-   
-    background-color: rgba(105, 3, 3, 0.281);
-    box-shadow: inset 5px 5px 10px rgba(255, 0, 0, 0.979);
-    border: 1px solid rgba(255, 0, 0, 0.719);
+    background-color: #D44D5C;
+    border: 1px solid #D44D5C;
 }
 .red:hover{
-    background-color: rgba(255, 0, 0, 0.658);
+    background-color: #9b9b9b;
+    border: 1px solid #3a3a3a;
 }
 
 .blue{
-    background-color: rgba(3, 44, 105, 0.281);
-    box-shadow: inset 5px 5px 10px rgba(0, 60, 255, 0.979);
-    border: 1px solid rgba(0, 17, 255, 0.719);
-
+    background-color: #64B6AC;
+    border: 1px solid #64B6AC;
 }
-
 .blue:hover {
-    background-color: rgba(3, 44, 105, 0.952)
-
+    background-color: #64b6ac00;
+    font-weight: 500;
 }
 
+.main { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: fit-content;
 
-
-
-.main { display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;}
+}
 
 .infobox {
-    background-color: rgba(255, 235, 205, 0.74);
-    border-radius: 20px;
+    background-color: #9c98af;
     padding: 20px;
     display: block;
     width: 60%;
-    text-align: center;
+    text-align: center; 
+}
+
+.another{
+    display: block;
+    width: 100%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #D44D5C;
+    border: none;
+    margin-top: 0px;
+    font-size: 1rem;
     
 }
 

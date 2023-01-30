@@ -5,6 +5,7 @@ const resultsContainer = document.querySelector('#main')
 const clearUI = function(){
     document.querySelector('#homeScreen').style.display = 'none'
     document.querySelector('#main').textContent= ''
+    document.querySelector('#main').style.backgroundColor = '#272640'
 
 }
 
