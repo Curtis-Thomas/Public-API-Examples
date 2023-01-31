@@ -1715,11 +1715,102 @@ list: [
     ]},
     {name:'Health',
     list: [
-        {name:''},
+        //https://data.cms.gov/provider-data/
+        {name:'CMS.gov'},
+        //https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme
+        {name:'Coronavirus'},
+        //https://coronavirus.data.gov.uk/details/developers-guide
+        {name:'Coronavirus in the UK'},
+        //https://covidtracking.com/data/api/version-2
+        {name:'Covid Tracking Project'},
+        //https://github.com/M-Media-Group/Covid-19-API
+        {name:'Covid-19'},
+        // /https://npgeo-corona-npgeo-de.hub.arcgis.com/
+        {name:'Covid-19 Datenhub'},
+        //https://www.bsg.ox.ac.uk/research/covid-19-government-response-tracker
+        {name:'Covid-19 Government Response'},
+        //https://data.covid19india.org/
+        {name:'Covid-19 India'},
+        //https://nuttaphat.com/covid19-api/
+        {name:'Covid-19 JHU CSSE'},
+        //https://github.com/mathdroid/covid-19-api
+        {name:'Covid-19 Live data'},
+        //https://github.com/Simperfy/Covid-19-API-Philippines-DOH
+        {name:'Covid-19 Philippines'},
+        //https://api.covid19tracker.ca/docs/1.0/overview
+        {name:'COVID-19 Tracker Canada'},
+        //https://www.hpb.health.gov.lk/en/api-documentation
+        {name:'COVID-19 Tracker Sri Lanka'},
+        //https://data.covid19.go.id/public/api/prov.json
+        {name:'COVID-ID'},
+        //https://covid-19.dataflowkit.com/
+        {name:'Dataflow Kit COVID-19'},
+        //https://fdc.nal.usda.gov/
+        {name:'FoodData Central'},
+        //https://www.healthcare.gov/developers/
+        {name:'Healthcare.gov'},
+        //https://data.humdata.org/
+        {name:'Humanitarian Data Exchange'},
+        //https://developer.infermedica.com/docs/introduction
+        {name:'Infermedica'},
+        //https://cov-spectrum.org/public
+        {name:'LAPIS'},
+        //https://docs.lexigram.io/
+        {name:'Lexigram'},
+        //http://makeup-api.herokuapp.com/
+        {name:'Makeup'},
+        //https://documenter.getpostman.com/view/16605343/Tzm8GG7u
+        {name:'MyVaccination'},
+        //https://npiregistry.cms.hhs.gov/search
+        {name:'NPPES'},
+        //https://developer.nutritionix.com/
+        {name:'Nuutritionix'},
+        //https://www.opendata.nhs.scot/
+        {name:'Open Data NHS Scotland'},
+        //https://disease.sh/
+        {name:'Open Disease'},
+        //https://open.fda.gov/
+        {name:'openFDA Orion Health'},
+        //https://ro.postcode.one/coronavirus/api?path=coronavirus/api/#gsc.tab=0
+        {name:'Quarantine'},
     ]},
     {name:'Jobs',
     list: [
-        {name:''},
+        //https://developer.adzuna.com/overview
+        {name:'Adzuna'},
+        //https://documenter.getpostman.com/view/18545278/UVJbJdKh
+        {name:'Arbeitnow'},
+        //https://jobsuche.api.bund.dev/
+        {name:'Arbeitsamt'},
+        //https://www.careerjet.com/partners/api/
+        {name:'Careerjet'},
+        //https://devitjobs.uk/job_feed.xml
+        {name:'DevITjobs UK'},
+        //https://findwork.dev/accounts/login/?next=/developers/
+        {name:'Findwork'},
+        //https://graphql.jobs/docs/api/
+        {name:'GraphQL Jobs'},
+        //https://api.jobs2careers.com/api/spec.pdf
+        {name:'Jobs2Careers'},
+        //https://jooble.org/api/about
+        {name:'Jooble'},
+        //http://www.juju.com/publisher/spec/
+        {name:'Juju'},
+        //https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview
+        {name:'Open Skills'},
+        //https://www.reed.co.uk/developers
+        {name:'Reed'},
+        //https://www.themuse.com/developers/api/v2
+        {name:'The Muse'},
+        //https://developers.upwork.com/?lang=python
+        {name:'Upwork'},
+        //https://developer.usajobs.gov/
+        {name:'USAJOBS'},
+        //https://developer.usajobs.gov/
+        {name:'WhatJobs'},
+        //https://www.ziprecruiter.co.uk/?utm_source=ziprecruiter-com-redirect
+        {name:'ZipRecruiter'},
+        
     ]},
     {name:'Machine LEarning',
     list: [

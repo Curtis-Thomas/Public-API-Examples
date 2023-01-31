@@ -116,7 +116,19 @@ button {
     flex-wrap: wrap;
     justify-content: space-evenly;
     height: fit-content;
+}
 
+.print{
+    text-align: center;
+    color: white;
+}
+.print .infobox {
+    padding: 20px;
+    display: block;
+    width: 60%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center; 
 }
 
 .infobox {
@@ -137,6 +149,29 @@ button {
     margin-top: 0px;
     font-size: 1rem;
     
+}
+
+.artBtn {
+    display: block;
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
+    padding: 15px;
+    /* background-color: rgba(189, 189, 189, 0); */
+    background-color: #2599bd;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 13.5%;
+    border-radius: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: solid 1px #2599bd;
+
+}
+.artBtn:hover {
+    background-color: #19667e;
+    border: solid 1px #19667e;
+
 }
 
 
