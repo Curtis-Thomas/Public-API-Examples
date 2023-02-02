@@ -33,14 +33,105 @@ document.querySelector('#btnBooks').addEventListener('click', function(){
     resultsContainer.append(books0)
 
     document.querySelector('#btnBooks0').addEventListener('click',function(){
-        function fetchAPI(){
-            let url = `https://www.abibliadigital.com.br/api/verses/nvi/sl/23`
-            fetch(url)
-                .then((response) => response.json())
-                .then((data)=> console.log(data)) 
-                // .then((data)=> renderAPI4(data) )       
+        
+
+        function printBibleOptions(){
+            let url = ''
+            
+            
+            clearUI()
+            document.querySelector('#main').style.color = 'white'
+           
+            let bible0 = document.createElement('h3')
+            bible0.textContent = 'Books'
+            resultsContainer.append(bible0)
+
+            let bible1 = document.createElement('button')
+            bible1.textContent = 'Get Books'
+            bible1.setAttribute('id', 'btnGetBooks')
+            resultsContainer.append(bible1)
+
+            document.querySelector('#btnGetBooks').addEventListener('click', function(){
+                url = 'https://www.abibliadigital.com.br/api/books'
+                function fetchAPI(){
+             
+                    fetch(url)
+                        .then((response) => response.json())
+                        // .then((data)=> console.log(data)) 
+                        .then((data)=> renderAPI(data) )       
+                }
+                fetchAPI()
+                function renderAPI(data){
+
+                    console.log(data);
+
+                  
+                    
+
+                    for(let i = 0; i < data.length; i++ ){
+                        console.log(`${i}  - ${data.length}`);
+
+                        let bibleBooks = document.createElement('p')
+                        bibleBooks.textContent = data[i]['name']
+                        bibleBooks.setAttribute('class','bibleBooks')
+                        resultsContainer.append(bibleBooks)
+
+                        console.log(data[i]['name']);
+                        i++
+                        console.log(`${i}  - ${data.length}`);
+                    }
+
+                    
+
+                   
+                    // let pic = document.createElement('img')
+                    // pic.setAttribute("id", "img1");
+                    // pic.style.height = '400px'
+                    // pic.src = 'https://cataas.com'+ picture.url
+                    // resultsContainer.append(pic)
+                }
+                
+            })
+
+            let bible2 = document.createElement('button')
+            bible2.textContent = 'Get Book'
+            resultsContainer.append(bible2)
+
+            let bible3 = document.createElement('h3')
+            bible3.textContent = 'Verses'
+            resultsContainer.append(bible3)
+
+            let bible4 = document.createElement('p')
+            bible4.textContent = 'Get Chapter'
+            resultsContainer.append(bible4)
+
+            let bible5 = document.createElement('p')
+            bible5.textContent = 'Get Verse'
+            resultsContainer.append(bible5)
+
+            let bible6 = document.createElement('p')
+            bible6.textContent = 'Get Random Verse'
+            resultsContainer.append(bible6)
+
+            let bible7 = document.createElement('p')
+            bible7.textContent = 'Get Random Verse Book'
+            resultsContainer.append(bible7)
+
+            let bible8 = document.createElement('p')
+            bible8.textContent = 'Search by Word'
+            resultsContainer.append(bible8)
+
+            let bible9 = document.createElement('h3')
+            bible9.textContent = 'Versions'
+            resultsContainer.append(bible9)
+
+            let bible10 = document.createElement('p')
+            bible10.textContent = 'Get Versions'
+            resultsContainer.append(bible10)
+
+
         }
-        fetchAPI()
+        printBibleOptions()
     })
 
     books1.textContent = arr[6]['list'][1]['name']

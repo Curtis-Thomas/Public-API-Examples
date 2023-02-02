@@ -71,7 +71,7 @@ document.querySelector('#btnCalendar').addEventListener('click', function(){
 
     calendar3.textContent = arr[8]['list'][3]['name']
     calendar3.setAttribute("id", "btnCalendar3");
-    calendar3.setAttribute("class", "green");
+    calendar3.setAttribute("class", "blue");
     resultsContainer.append(calendar3)
 
     document.querySelector('#btnCalendar3').addEventListener('click',function(){
@@ -79,10 +79,79 @@ document.querySelector('#btnCalendar').addEventListener('click', function(){
             let url = `http://calapi.inadiutorium.cz/api/v0/en/calendars/default/today`
             fetch(url)
                 .then((response) => response.json())
-                .then((data)=> console.log(data)) 
-                // .then((data)=> renderAPI4(data) )       
+                // .then((data)=> console.log(data)) 
+                .then((data)=> renderAPI(data) )       
         }
         fetchAPI()
+        function renderAPI(data){
+            console.log(data);
+            clearUI()
+
+            document.querySelector('#main').style.backgroundColor  = '#ccd4d2'
+            document.querySelector('#main').style.border = 'solid 1px #2e3c56'
+           
+            let data0 = document.createElement('h2')
+            data0.textContent =data['celebrations'][0]['title']
+            data0.setAttribute('class', 'churchCalendar')
+            resultsContainer.append(data0)
+
+            let data1 = document.createElement('p')
+            data1.textContent =data['celebrations'][0]['color']
+            data1.setAttribute('class', 'churchCalendar')
+            resultsContainer.append(data1)
+
+            let data2 = document.createElement('p')
+            data2.textContent =data['celebrations'][0]['rank']
+            data2.setAttribute('class', 'churchCalendar')
+            resultsContainer.append(data2)
+
+            let data3 = document.createElement('p')
+            data3.textContent =data['celebrations'][0]['rank_num']
+            data3.setAttribute('class', 'churchCalendar')
+            resultsContainer.append(data3)
+
+            let data4 = document.createElement('h3')
+            data4.textContent ='Date'
+            data4.setAttribute('class', 'churchCalendar')
+            resultsContainer.append(data4)
+
+            let data5 = document.createElement('p')
+            data5.textContent = data['date']
+            data5.setAttribute('class', 'churchCalendar')
+            resultsContainer.append(data5)
+
+            let data6 = document.createElement('h3')
+            data6.textContent ='Season'
+            data6.setAttribute('class', 'churchCalendar')
+            resultsContainer.append(data6)
+
+            let data7 = document.createElement('p')
+            data7.textContent = data['season']
+            data7.setAttribute('class', 'churchCalendar')
+            resultsContainer.append(data7)
+
+            let data8 = document.createElement('h3')
+            data8.textContent ='Season Week'
+            data8.setAttribute('class', 'churchCalendar')
+            resultsContainer.append(data8)
+
+            let data9 = document.createElement('p')
+            data9.textContent = data['season_week']
+            data9.setAttribute('class', 'churchCalendar')
+            resultsContainer.append(data9)
+
+            let data10 = document.createElement('h3')
+            data10.textContent ='Weekday'
+            data10.setAttribute('class', 'churchCalendar')
+            resultsContainer.append(data10)
+
+            let data11 = document.createElement('p')
+            data11.textContent = data['weekday']
+            data11.setAttribute('class', 'churchCalendar')
+            resultsContainer.append(data11)
+
+            
+        }
     })
 
     calendar4.textContent = arr[8]['list'][4]['name']
