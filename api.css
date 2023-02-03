@@ -192,6 +192,23 @@ button {
 
 
 
+.freeDictionary {
+
+    width: 100%;
+    /* color: #2e3c56; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.btnSubmit {
+    width: 100%;
+    height: 5rem;
+    
+}
+
+
+
 
 
 

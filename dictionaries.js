@@ -68,18 +68,103 @@ document.querySelector('#btnDictionaries').addEventListener('click', function(){
 
     dictionaries3.textContent = arr[15]['list'][3]['name']
     dictionaries3.setAttribute("id", "btnDictionaries3");
-    dictionaries3.setAttribute("class", "green");
+    dictionaries3.setAttribute("class", "blue");
     resultsContainer.append(dictionaries3)
 
     document.querySelector('#btnDictionaries3').addEventListener('click',function(){
-        function fetchAPI(){
-            let url = `https://api.dictionaryapi.dev/api/v2/entries/en/hello`
+        let inputWord = 'hello'
+        function fetchAPI(inputword){
+            let url = `https://api.dictionaryapi.dev/api/v2/entries/en/${inputword}`
             fetch(url)
                 .then((response) => response.json())
-                .then((data)=> console.log(data)) 
-                // .then((data)=> renderAPI4(data) )       
+                // .then((data)=> console.log(data)) 
+                .then((data)=> renderAPI(data) )       
         }
-        fetchAPI()
+        fetchAPI(inputWord)
+
+        function renderAPI(word){
+            clearUI()
+            console.log(word);
+
+            let input1 = document.createElement('form')
+            input1.setAttribute('id', 'inputForm1')
+            resultsContainer.append(input1)
+
+            const form = document.getElementById("inputForm1");
+            function handleForm(event) { event.preventDefault(); } 
+            form.addEventListener('submit', handleForm);
+
+            const input2 = document.createElement('input')
+            input2.setAttribute('id','inputWordBox')
+            document.querySelector('#inputForm1').appendChild(input2)
+
+            const input3 = document.createElement('button')
+            input3.setAttribute('id', 'btnSubmit')
+            input3.setAttribute('class', 'btnSubmit')
+            input3.textContent = 'Submit Word'
+            document.querySelector('#inputForm1').appendChild(input3)
+
+            document.querySelector('#btnSubmit').addEventListener('click', function(){
+                console.log(document.querySelector('#inputWordBox').value)
+                inputWord = document.querySelector('#inputWordBox').value
+                console.log(inputWord);
+                fetchAPI(inputWord)
+
+
+            })
+            
+
+
+
+
+
+           
+            let word0 = document.createElement('p')
+            word0.textContent = `Word: ${word[0]['word']}`
+            word0.setAttribute('class', 'freeDictionary')
+            resultsContainer.append(word0)
+
+            // let word1 = document.createElement('h3')
+            // word1.textContent = 'Meanings'
+            // word1.setAttribute('class', 'freeDictionary')
+            // resultsContainer.append(word1)
+
+            let word2 = document.createElement('p')
+            word2.textContent = `Part of Speech: ${word[0]['meanings'][0]['partOfSpeech']}`
+            word2.setAttribute('class', 'freeDictionary')
+            resultsContainer.append(word2)
+
+            let word3 = document.createElement('p')
+            word3.textContent = `Definition: ${word[0].meanings[0].definitions[0].definition}`
+            
+            word3.setAttribute('class', 'freeDictionary')
+            resultsContainer.append(word3)
+
+            let word4 = document.createElement('p')
+            word4.textContent = `Part Of Speech: ${word[0]['meanings'][1]['partOfSpeech']}`
+            word4.setAttribute('class', 'freeDictionary')
+            resultsContainer.append(word4)
+
+            
+            let word5 = document.createElement('audio')
+            word5.setAttribute('id', 'wordAudio')
+            resultsContainer.append(word5)
+            const addSource = document.createElement('source')
+            addSource.setAttribute('src', word[0]['phonetics'][0]['audio'])
+            document.querySelector('#wordAudio').appendChild(addSource)
+            document.querySelector('#wordAudio').controls = true
+
+
+
+        //  <audio controls>
+        //     <source src="https://api.dictionaryapi.dev/media/pronunciations/en/hello-au.mp3" type="audio/mpeg" />
+            
+        // </audio>
+
+            // let word = document.createElement('')
+            // word.textContent = 
+            // resultsContainer.append(word)
+        }
     })
 
     dictionaries4.textContent = arr[15]['list'][4]['name']
