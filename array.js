@@ -1931,11 +1931,120 @@ list: [
     ]},
     {name:'News',
     list: [
-        {name:''},
+        //https://mediastack.com/
+        {name:'apilayer mediastack'},
+        //https://developer.ap.org/
+        {name:'Associated Press'},
+        //https://chroniclingamerica.loc.gov/about/api/
+        {name:'Chronicling America'},
+        //https://currentsapi.services/en
+        {name:'Currents'},
+        //https://github.com/feedbin/feedbin-api
+        {name:'Feedbin'},
+        //https://gnews.io/
+        {name:'GNews'},
+        //https://corona.dnsforfamily.com/api.txt
+        {name:'Graphs for Coronavirus'},
+        //https://github.com/cyberboysumanjay/Inshorts-News-API
+        {name:'Inshorts News'},
+        //https://www.marketaux.com/
+        {name:'MarketAux'},
+        //https://developer.nytimes.com/
+        {name:'New York Times'},
+        //https://newsapi.org/
+        {name:'News'},
+        //https://newsdata.io/documentation
+        {name:'NewsData'},
+        //https://rapidapi.com/machaao-inc-machaao-inc-default/api/newsx/
+        {name:'NewsX'},
+        //http://dev.npr.org/
+        {name:'NPR One'},
+        //https://spaceflightnewsapi.net/
+        {name:'Spaceflight News'},
+        //https://open-platform.theguardian.com/
+        {name:'The Guardian'},
+        //https://github.com/theoldreader/api
+        {name:'The Old Reader'},
+        //https://www.thenewsapi.com/
+        {name:'TheNews'},
+        //https://trove.nla.gov.au/about/create-something/using-api
+        {name:'Trove'},
+        
+        
     ]},
     {name:'Open Data',
     list: [
-        {name:''},
+        //http://18f.github.io/API-All-the-X/
+        {name:'18F'},
+        //https://www.apisetu.gov.in/
+        {name:'API Setu'},
+        // /https://archive.readme.io/reference/getting-started
+        {name:'Archive.org'},
+        //https://www.blackhistoryapi.io/docs
+        {name:'Black History Facts'},
+        //https://botsarchive.com/docs.html
+        {name:'BotsArchive'},
+        //https://callook.info/
+        {name:'Callook.info'},
+        //https://carto.com/
+        {name:'CARTO'},
+        //https://collegescorecard.ed.gov/data/
+        {name:'CollegeScoreCard.ed.gov'},
+        //https://developers.enigma.com/docs
+        {name:'Enigma Public'},
+        //https://adresse.data.gouv.fr/api-doc/adresse
+        {name:'French Address Search'},
+        //https://www.destatis.de/EN/Service/OpenData/api-webservice.html
+        {name:'GENESIS'},
+        //https://api.joshuaproject.net/
+        {name:'Joshua Project'},
+        //https://www.kaggle.com/docs/api
+        {name:'Kaggle'},
+        //https://www.linkpreview.net/
+        {name:'LinkPreview'},
+        //https://github.com/0x0is1/lowy-index-api-docs
+        {name:'Lowy Asia Power Index'},
+        //https://microlink.io/
+        {name:'Microlink.io'},
+        //https://docs.data.nasdaq.com/
+        {name:'Nasdaq Data Link'},
+        //https://www.nobelprize.org/about/developer-zone-2/
+        {name:'Nobel Prize'},
+        //https://opendata.minneapolismn.gov/
+        {name:'Open Data Minneapolis'},
+        //https://africaopendata.org/
+        {name:'openAfFRICA'},
+        //http://api.opencorporates.com/documentation/API-Reference
+        {name:'OpenCorporates'},
+        //https://www.opensanctions.org/docs/api/
+        {name:'OpenSanctions'},
+        //https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news
+        {name:'PeakMetrics'},
+        //https://ridb.recreation.gov/landing
+        {name:'Recreation Information Database'},
+        //https://www.scoop.it/dev
+        {name:'Scoop.it'},
+        //https://dev.socrata.com/
+        {name:'Socrata'},
+        //https://developers.teleport.org/
+        {name:'Teleport'},
+        //https://opendata.umea.se/api/v2/console
+        {name:'Umea Open Data'},
+        //https://github.com/Hipo/university-domains-list
+        {name:'Universities List'},
+        //https://data.uio.no/
+        {name:'University of Oslo'},
+        //https://upcdatabase.org/api
+        {name:'UPC database'},
+        //https://urbanobservatory.ac.uk/
+        {name:'Urban Observatory'},
+        // /https://www.wikidata.org/w/api.php?action=help
+        {name:'Wikidata'},
+        //https://www.mediawiki.org/wiki/API:Main_page
+        {name:'Wikipedia'},
+        //https://docs.developer.yelp.com/docs/getting-started
+        {name:'Yelp'},
+
     ]},
     {name:'Open Source Projects',
     list: [
