@@ -2069,19 +2069,136 @@ list: [
     ]},
     {name:'Patent',
     list: [
-        {name:''},
+        //https://developers.epo.org/
+        {name:'EPO'},
+        //https://patentsview.org/apis/purpose
+        {name:'PatentsView'},
+        //https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00
+        {name:'TIPO'},
+        //https://www.uspto.gov/learning-and-resources/open-data-and-mobility
+        {name:'USPTO'},
     ]},
     {name:'Personality',
     list: [
-        {name:''},
+        //https://api.adviceslip.com/
+        {name:'Advice slip'},
+        //https://biriyani.anoram.com/
+        {name:'Biriyani As A Service'},
+        //https://developers.forem.com/api
+        {name:'Dev.to'},
+        //https://github.com/fisenkodv/dictum
+        {name:'Dictum'},
+        //https://favqs.com/api
+        {name:'FavQs.com'},
+        //https://www.foaas.com/
+        {name:'FOAAS'},
+        //https://forismatic.com/en/api/
+        {name:'Forismatic'},
+        //https://icanhazdadjoke.com/api
+        {name:'icanhazdadjoke'},
+        //https://api.goprogram.ai/inspiration/docs/
+        {name:'Inspiration'},
+        //https://kanye.rest/
+        {name:'kanye.rest'},
+        // /https://kimiquotes.herokuapp.com/doc
+        {name:'kimiquotes'},
+        // /https://github.com/Medium/medium-api-docs
+        {name:'Medium'},
+        //https://github.com/skolakoda/programming-quotes-api
+        {name:'Programming Quotes'},
+        //https://github.com/lukePeavey/quotable
+        {name:'Quotable Quotes'},
+        //https://pprathameshmore.github.io/QuoteGarden/
+        {name:'Quote Garden'},
+        // /https://www.jcquotes.com/0akEm
+        {name:'quoteclear'},
+        //https://quotesondesign.com/api/
+        {name:'Quotes on Design'},
+        //https://github.com/tlcheah2/stoic-quote-lambda-public-api
+        {name:'Stoicism Qyote'},
+        //https://theysaidso.com/api/
+        {name:'The Said So Quotes'},
+        //https://app.traitify.com/developer
+        {name:'Traitify'},
+        //https://www.udemy.com/developers/instructor/
+        {name:'Udemy(instructor)'},
+        //https://vadivelu.anoram.com/
+        {name:'Vadivelu HTT{ Quotes'},
+        //https://zenquotes.io/
+        {name:'Zen Quotes'},
     ]},
     {name:'Phone',
     list: [
-        {name:''},
+        //https://cloudmersive.com/phone-number-validation-API
+        {name:'Cloudmersive Validate'},
+        //https://www.abstractapi.com/api/phone-validation-api
+        {name:'Abstract Phone Validation'},
+        //https://numverify.com/
+        {name:'apilayer numverify'},
+        //https://github.com/azharimm/phone-specs-api
+        {name:'Phone Specification'},
+        //https://veriphone.io/
+        {name:'Veriphone'},
     ]},
     {name:'Photography',
     list: [
-        {name:''},
+        //https://screenshotlayer.com/
+        {name:'apilayer Screenshot'},
+        //https://apitemplate.io/
+        {name:'APITemplate.io'},
+        //https://docs.bruzu.com/
+        {name:'Bruzu'},
+        //https://cheetaho.com/docs/getting-started/
+        {name:'CheetahO'},
+        //https://dagpi.xyz/
+        {name:'Dagpi'},
+        //https://duply.co/docs#getting-started-api
+        {name:'Duply'},
+        //https://dynapictures.com/docs/#introduction
+        {name:'DynaPictures'},
+        //https://www.flickr.com/services/api/
+        {name:'Flickr'},
+        //https://developers.gettyimages.com/
+        {name:'Getty Images'},
+        //https://developers.gfycat.com/api/
+        {name:'Gfycat'},
+        //https://developers.giphy.com/docs/sdk
+        {name:'Giphy'},
+        //https://developers.google.com/photos
+        {name:'Gogle Photos'},
+        //https://apidocs.imgur.com/
+        {name:'Imgur'},
+        //https://imsea.herokuapp.com/
+        {name:'Imsea'},
+        //https://picsum.photos/
+        {name:'Lorem Picsum'},
+        //https://objectcut.com/
+        {name:'ObjectCut'},
+        //https://www.pexels.com/api/
+        {name:'Pexels'},
+        //https://www.photoroom.com/api/
+        {name:'PhotoRoom'},
+        //https://pixabay.com/sk/service/about/api/
+        {name:'Pixabay'},
+        //https://placekeanu.com/
+        {name:'PlaceKeanu'},
+        //https://github.com/DenverCoder1/readme-typing-svg
+        {name:'Readme typing SVG'},
+        //https://www.remove.bg/api#remove-background
+        {name:'Remove.bg'},
+        //https://resmush.it/api
+        {name:'ReSmush.it'},
+        //https://apidocs.sirv.com/#getting-started
+        {name:'shutterstock'},
+        //https://apidocs.sirv.com/#getting-started
+        {name:'Sirv'},
+        //https://unsplash.com/developers
+        {name:'Unsplash'},
+        //https://wallhaven.cc/help/api
+        {name:'Wallhaven'},
+        //https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API
+        {name:'Webdam'},
+
     ]},
     {name:'Programming',
     list: [
