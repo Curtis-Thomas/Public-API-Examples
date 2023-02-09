@@ -2202,15 +2202,163 @@ list: [
     ]},
     {name:'Programming',
     list: [
-        {name:''},
+        //https://codeforces.com/apiHelp
+        {name:'Codeforces'},
+        //https://www.hackerearth.com/docs/wiki/developers/v4/
+        {name:'Hackerearth'},
+        //https://ce.judge0.com/
+        {name:'Judge0 CE'},
+        //https://kontests.net/api
+        {name:'KONTESTS'},
+        //https://docs.mintlify.com/probot
+        {name:'Mintlify'},
     ]},
     {name:'Science & Math',
     list: [
-        {name:''},
+        //https://api.arcsecond.io/
+        {name:'arcsecond.io'},
+        //https://info.arxiv.org/help/api/user-manual.html
+        {name:'arXiv'},
+        //https://core.ac.uk/services#api
+        {name:'CORE'},
+        //https://www.gbif.org/developer/summary
+        {name:'GBIF'},
+        //https://github.com/idigbio/idigbio-search-api/wiki
+        {name:'iDigBio'},
+        //https://github.com/inspirehep/rest-api-doc
+        {name:'inspirehep.net'},
+        //https://isevenapi.xyz/
+        {name:'isEven (humor)'},
+        //https://isro.vercel.app/
+        {name:'ISRO'},
+        //https://www.itis.gov/ws_description.html
+        {name:'ITIS'},
+        //https://thespacedevs.com/llapi
+        {name:'Launch Library 2'},
+        //https://mpds.io/#start
+        {name:'Materials Platform for Data Science'},
+        //https://www.asterank.com/mpc
+        {name:'Minor Planet Center'},
+        // /https://api.nasa.gov/
+        {name:'NASA'},
+        //https://ui.adsabs.harvard.edu/help/api/api-docs.html#servers
+        {name:'NASA ADS'},
+        //https://newton.vercel.app/
+        {name:'Newton'},
+        //https://api.noctuasky.com/api/v1/swaggerdoc/
+        {name:'Noctua'},
+        //http://numbersapi.com/#42
+        {name:'Numbers'},
+        //https://oceanfacts.herokuapp.com/
+        {name:'Ocean Facts'},
+        //http://open-notify.org/Open-Notify-API/
+        {name:'Open Notify'},
+        //https://developer.osf.io/
+        {name:'Open Science Framework'},
+        //https://www2.purpleair.com/
+        {name:'Purple Air'},
+        //https://github.com/elizabethadegbaju/remotecalc
+        {name:'Remote Calc'},
+        //https://share.osf.io/api/v2/
+        {name:'SHARE'},
+        // /https://api.spacex.land/graphql/
+        {name:'SpaceX'},
+        //https://sunrise-sunset.org/api
+        {name:'Sunrise and Sunset'},
+        //https://github.com/FranP-code/API-Times-Adder
+        {name:'Times Adder'},
+        //https://tle.ivanstanojevic.me/#/docs
+        {name:'TLE'},
+        //https://earthquake.usgs.gov/fdsnws/event/1/
+        {name:'USGS Earthquake Hazards Program'},
+        //https://waterservices.usgs.gov/
+        {name:'USGS Wateer Services'},
+        //https://datahelpdesk.worldbank.org/knowledgebase/topics/125589
+        {name:'World Bank'},
+        // /https://x-math.herokuapp.com/
+        {name:'xMath'},
+
     ]},
     {name:'Securtiy',
     list: [
-        {name:''},
+        //https://github.com/fingerprintjs/aev
+        {name:'Application Environment Verification'},
+        //https://docs.binaryedge.io/api-v2.html
+        {name:'BinaryEdge'},
+        //https://bitwarden.com/help/api/
+        {name:'BitWarden'},
+        //https://github.com/fingerprintjs/botd
+        {name:'Botd'},
+        //https://docs.bugcrowd.com/api/getting-started/
+        {name:'Bugcrowd'},
+        //https://search.censys.io/api
+        {name:'C3nsys'},
+        //https://classify-web.herokuapp.com/#/api
+        {name:'Classify'},
+        //https://completecriminalchecks.com/Developers/
+        {name:'Complete Criminal Checks'},
+        //https://crxcavator.io/apidocs
+        {name:'CRX cavator'},
+        //https://github.com/Dehash-lt/api
+        {name:'Dehash.It'},
+        //https://docs.sublimesecurity.com/reference/emailrep-introduction
+        {name:'EmailRep'},
+        //https://github.com/polarspetroll/EscapeAPI
+        {name:'Escape'},
+        //https://filterlists.com/
+        {name:'FilterLists'},
+        //https://dev.fingerprint.com/docs
+        {name:'FingerprintJS Pro'},
+        //https://www.fraudlabspro.com/developer/api/screen-order
+        {name:'Fraud Labs'},
+        //https://api-docs.fullhunt.io/#introduction
+        {name:'FullHunt'},
+        //https://api.gitguardian.com/docs
+        {name:'GitGuardian'},
+        //https://docs.greynoise.io/reference/get_v3-community-ip
+        {name:'GreyNoise'},
+        //https://api.hackerone.com/
+        {name:'HackerOne'},
+        //https://hashable.space/pages/api/
+        {name:'Hashable'},
+        //https://haveibeenpwned.com/API/v3
+        {name:'HaveIBeenPened'},
+        //https://github.com/IntelligenceX/SDK/blob/master/Intelligence%20X%20API.pdf
+        {name:'Intelligence X'},
+        //https://docs.loginradius.com/
+        {name:'LoginRadius'},
+        //https://msrc.microsoft.com/report/developer
+        {name:'Microsoft Securtiy Response Center (MSRC'},
+        //https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md
+        {name:'Mozilla http scanner'},
+        //https://github.com/mozilla/tls-observatory#api-endpoints
+        {name:'Mozilla tls scanner'},
+        //https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog
+        {name:'National Vulnerability Database'},
+        //https://github.com/fawazsullia/password-generator/
+        {name:'Passwordinator'},
+        //https://phishstats.info/
+        {name:'PhishStats'},
+        //https://privacy-com.readme.io/docs
+        {name:'Privacy.com'},
+        //https://pulsedive.com/api/
+        {name:'Pulsedive'},
+        //https://securitytrails.com/corp/apidocs
+        {name:'SecurtiyTrails'},
+        //https://developer.shodan.io/
+        {name:'Shodan'},
+        //https://spyse-dev.readme.io/reference/quick-start
+        {name:'Spyse'},
+        //https://threatjammer.com/docs/index
+        {name:'Threat Jammer'},
+        //https://data.police.uk/docs/
+        {name:'UK Police'},
+        //https://api.virushee.com/
+        {name:'Virushee'},
+        //https://vuldb.com/?kb.api
+        {name:'VulDB'},
+      
+
     ]},
     {name:'Shopping',
     list: [
