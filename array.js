@@ -2362,15 +2362,184 @@ list: [
     ]},
     {name:'Shopping',
     list: [
-        {name:''},
+        //https://bestbuyapis.github.io/api-documentation/#overview
+        {name:'Best Buy'},
+        //https://www.digikey.com/en/resources/api-solutions
+        {name:'Digi-Key'},
+        //https://dummyproducts-api.herokuapp.com/
+        {name:'Dummy Products'},
+        //https://developer.ebay.com/
+        {name:'eBay'},
+        //https://www.etsy.com/developers/documentation/getting_started/api_basics
+        {name:'Etsy'},
+        //https://seller.flipkart.com/api-docs/FMSAPI.html
+        {name:'Flipkart Marketplace'},
+        //https://open.lazada.com/apps/user/login?redirectURL=https%3A%2F%2Fopen.lazada.com%2Fdoc%2Fdoc.htm
+        {name:'Lazada'},
+        //https://developers.mercadolibre.cl/es_ar/api-docs-es
+        {name:'Mercadolibre'},
+        //https://octopart.com/api/v4/reference
+        {name:'Octopart'},
+        //https://developer.olx.pl/api/doc#section/
+        {name:'OLX Poland'},
+        //https://dev-portal.rappi.com/en/
+        {name:'Rappi'},
+        //https://open.shopee.com/developer-guide/12
+        {name:'Shopee'},
+        //https://developer.tokopedia.com/openapi/guide/#/
+        {name:'Tokopedia'},
+        //https://woocommerce.github.io/woocommerce-rest-api-docs/#introduction
+        {name:'WooCommerce'},
+        
     ]},
     {name:'Social',
     list: [
-        {name:''},
+        //https://github.com/4chan/4chan-API
+        {name:'4chan'},
+        //https://www.ayrshare.com/
+        {name:'Ayrshare'},
+        //https://aztro.sameerkumar.website/
+        {name:'aztro'},
+        //https://developers.google.com/blogger/
+        {name:'Blogger'},
+        //https://developer.webex.com/
+        {name:'Cisco Spark'},
+        //https://discord.drivet.xyz/profile/api
+        {name:'Dangerous Discord Database'},
+        //https://disqus.com/api/docs/auth/
+        {name:'Disqus'},
+        //https://disqus.com/api/docs/auth/
+        {name:'Doge-Meme'},
+        //https://developers.facebook.com/
+        {name:'Facebook'},
+        //https://location.foursquare.com/developer/
+        {name:'Foursquare'},
+        //https://www.foaas.com/
+        {name:'Fuck Off as a Service'},
+        //https://docs.fullcontact.com/
+        {name:'Full Contact'},
+        //https://github.com/HackerNews/API
+        {name:'HackerNews'},
+        //https://hashnode.com/
+        {name:'Hashnode'},
+        //https://developers.facebook.com/docs/instagram
+        {name:'Instagram'},
+        //https://developers.kakao.com/
+        {name:'Kakao'},
+        //https://github.com/Phineas/lanyard
+        {name:'Lanyard'},
+        //https://developers.line.biz/en/
+        {name:'Line'},
+        //https://learn.microsoft.com/en-us/linkedin/?context=linkedin%2Fcontext
+        {name:'LinkedIn'},
+        //https://www.meetup.com/api/guide/
+        {name:'Meetup.com'},
+        //https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0
+        {name:'Microsoft Graph'},
+        //https://developers.naver.com/main/
+        {name:'NAVER'},
+        //https://docs.opencollective.com/help/contributing/development/api
+        {name:'Open Collective'},
+        // /https://developers.pinterest.com/
+        {name:'Pintrest'},
+        //https://api.producthunt.com/v2/docs
+        {name:'Product Hunt'},
+        // /https://www.reddit.com/dev/api
+        {name:'Reddit'},
+        // /https://developers.revolt.chat/api/
+        {name:'Revolt'},
+        //https://www.saidit.net/dev/api
+        {name:'Saidit'},
+        //https://api.slack.com/
+        {name:'Slack'},
+        //https://dev.tamtam.chat/
+        {name:'TamTam'},
+        //https://core.telegram.org/bots/api
+        {name:'Telegram Bot'},
+        //https://core.telegram.org/api#getting-started
+        {name:'Telegram MTProto'},
+        //https://telegra.ph/api
+        {name:'Telegraph'},
+        //https://developers.tiktok.com/doc/login-kit-web
+        {name:'TikTok'},
+        //https://trashnothing.com/developer
+        {name:'Trash Nothing'},
+        //https://www.tumblr.com/privacy/consent/begin?redirect=https%3A%2F%2Fwww.tumblr.com%2Fdocs%2Fen%2Fapi%2Fv2&v=2
+        {name:'Tumblr'},
+        //https://dev.twitch.tv/docs
+        {name:'Twitch'},
+        //https://developer.twitter.com/en/docs
+        {name:'Twitter'},
+        //https://vk.com/dev/sites
+        {name:'vk'},
     ]},
     {name:'Sports & Fitness',
     list: [
-        {name:''},
+        //https://www.api-football.com/documentation-v3
+        {name:'API-FOOTBALL'},
+        //https://apimedic.com/
+        {name:'ApiMedic'},
+        //https://app.balldontlie.io/
+        {name:'balldontlie'},
+        //http://api.cfl.ca/
+        {name:'Canadian Football League (CFL)'},
+        //https://api.citybik.es/v2/
+        {name:'City Bikes'},
+        //https://www.cloudbet.com/api/
+        {name:'Cloudbet'},
+        //https://collegefootballdata.com/
+        {name:'CollegeFootballData.com'},
+        //http://ergast.com/mrd/
+        {name:'Ergast F1'},
+        //https://dev.fitbit.com/
+        {name:'Fitbit'},
+        //https://rapidapi.com/GiulianoCrescimbeni/api/football98/
+        {name:'Football'},
+        // /https://www.scorebat.com/video-api/
+        {name:'Football (Soccer) Videos'},
+        //https://github.com/azharimm/football-standings-api
+        {name:'Football Standings'},
+        //https://www.football-data.org/
+        {name:'Football-Data'},
+        //https://developer.jcdecaux.com/#/home
+        {name:'JCDecaux Bike'},
+        //https://appac.github.io/mlb-data-api-docs/
+        {name:'MLB Records and Stats'},
+        //https://rapidapi.com/api-sports/api/api-nba/
+        {name:'NBA Data'},
+        //https://any-api.com/nba_com/nba_com/docs/API_Description
+        {name:'NBA Stats'},
+        //https://gitlab.com/dword4/nhlapi
+        {name:'NHL Records and Stats'},
+        //https://data.oddsmagnet.com/
+        {name:'Oddsmagnet'},
+        //https://www.openligadb.de/
+        {name:'OpenLigaDB'},
+        //https://rapidapi.com/heisenbug/api/premier-league-live-scores/
+        {name:'Premier League Standings'},
+        // /https://sportdataapi.com/
+        {name:'Sports Data'},
+        //https://developers.decathlon.com/products/sports
+        {name:'Sports List & Data'},
+        //https://developers.decathlon.com/products/sport-places
+        {name:'Sports Places'},
+        //https://developers.decathlon.com/products/sport-vision
+        {name:'Sports Vision'},
+        //https://docs.sportmonks.com/cricket/
+        {name:'Sportmonks Cricket'},
+        //https://api.squiggle.com.au/
+        {name:'Squiggle'},
+        // /https://developers.strava.com/
+        {name:'Strava'},
+        //https://suredbits.com/api/#lightning-api-v0-beta-documentation
+        {name:'SuredBits'},
+        //https://www.thesportsdb.com/api.php
+        {name:'TheSportsDB'},
+        //https://www.tredict.com/blog/oauth_docs/
+        {name:'Tredict'},
+        //https://wger.de/en/software/api
+        {name:'Wger'},
+        
     ]},
     {name:'Test Data',
     list: [

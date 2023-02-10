@@ -622,7 +622,17 @@ document.querySelector('#btnSecurity').addEventListener('click', function(){
                 .then((response) => response.json())
                 .then((data)=> console.log(data)) 
                 // .then((data)=> renderAPI4(data) )       
-        }
+        }   //  document.querySelector('#btnSecurity37').addEventListener('click',function(){
+    //     function fetchAPI(){
+    //         let url = `https://vuldb.com/?api`
+    //         fetch(url)
+    //             .then((response) => response.json())
+    //             .then((data)=> console.log(data)) 
+    //             // .then((data)=> renderAPI4(data) )       
+    //     }
+    //     fetchAPI()
+    // })
+
         fetchAPI()
     })
 
@@ -647,17 +657,7 @@ document.querySelector('#btnSecurity').addEventListener('click', function(){
     security37.setAttribute("class", "yellow");
     resultsContainer.append(security37)
 
-    //  document.querySelector('#btnSecurity37').addEventListener('click',function(){
-    //     function fetchAPI(){
-    //         let url = `https://vuldb.com/?api`
-    //         fetch(url)
-    //             .then((response) => response.json())
-    //             .then((data)=> console.log(data)) 
-    //             // .then((data)=> renderAPI4(data) )       
-    //     }
-    //     fetchAPI()
-    // })
-
+ 
 
 
 
