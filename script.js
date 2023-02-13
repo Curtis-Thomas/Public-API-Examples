@@ -14,6 +14,11 @@ const clearPrint = function(){
     document.querySelector('#print').style.backgroundColor = '#272640'
 }
 
+const navContainer = document.querySelector('#navBar')
+const clearNav = function(){
+    document.querySelector('#navBar').textContent = ''
+}
+
 const printHome = function(){
     document.querySelector('#homeScreen').style.display = 'block'   
 }
@@ -23,6 +28,7 @@ printHome()
 document.querySelector('#btnHome').addEventListener('click', function(){
     clearUI()
     clearPrint()
+    clearNav()
     printHome()
 })
 

@@ -451,10 +451,445 @@ document.querySelector('#btnBooks').addEventListener('click', function(){
             let url = `https://wizard-world-api.herokuapp.com/Houses`
             fetch(url)
                 .then((response) => response.json())
-                .then((data)=> console.log(data)) 
-                // .then((data)=> renderAPI4(data) )       
+                // .then((data)=> console.log(data)) 
+                .then((data)=> renderAPI(data) )       
         }
         fetchAPI()
+
+        function renderAPI(arr){
+            console.log(arr);
+            clearUI()
+
+
+          
+
+           
+
+            const housesNavBar = document.createElement('div')
+            housesNavBar.setAttribute('class', 'housesNavBar')
+            housesNavBar.setAttribute('id', 'housesNavBar')
+            navContainer.append(housesNavBar)
+
+            const housesNavBarHome = document.createElement('button')
+            housesNavBarHome.setAttribute('id', 'housesNavBarHome')
+            housesNavBarHome.textContent = 'Home'
+            housesNavBar.append(housesNavBarHome)
+
+            document.querySelector('#housesNavBarHome').addEventListener('click', function(){
+                clearNav()
+                fetchAPI()
+            })
+
+
+
+            const gryffindorBtnMain = document.createElement('button')
+            gryffindorBtnMain.setAttribute('id', 'gryffindorBtnMain')
+            gryffindorBtnMain.setAttribute('class', 'gryffindorBtnMain' )
+            gryffindorBtnMain.textContent = arr[0]['name']
+            resultsContainer.append(gryffindorBtnMain)
+
+            const printGryffindor =  function(){
+                clearUI()
+
+                const gryffindorAnimal = document.createElement('h3')
+                gryffindorAnimal.textContent = arr[0]['animal']
+                gryffindorAnimal.setAttribute('class', 'housesH2')
+                resultsContainer.append(gryffindorAnimal)
+
+                const gryffindorCommonRoom = document.createElement('h3')
+                gryffindorCommonRoom.textContent = arr[0]['commonRoom']
+                gryffindorCommonRoom.setAttribute('class', 'housesH2')
+                resultsContainer.append(gryffindorCommonRoom)
+
+                const gryffindorElement = document.createElement('h3')
+                gryffindorElement.setAttribute('class', 'housesH2')
+                gryffindorElement.textContent = arr[0]['element']
+                resultsContainer.append(gryffindorElement)
+
+                const gryffindorFounder = document.createElement('h3')
+                gryffindorFounder.setAttribute('class', 'housesH2')
+                gryffindorFounder.textContent = arr[0]['founder']
+                resultsContainer.append(gryffindorFounder)
+
+                const gryffindorGhost = document.createElement('h3')
+                gryffindorGhost.setAttribute('class', 'housesH2')
+                gryffindorGhost.textContent = arr[0]['ghost']
+                resultsContainer.append(gryffindorGhost)
+
+                const gryffindorHeads = document.createElement('button')
+                gryffindorHeads.setAttribute('class', 'housesH2')
+                gryffindorHeads.setAttribute('id', 'gryffindorHeads')
+                gryffindorHeads.textContent = 'Heads'
+                resultsContainer.append(gryffindorHeads)
+
+                const printGryffindorHeads = function(){
+                    clearUI()
+                    const gryffindorHead1 = document.createElement('h3')
+                    gryffindorHead1.textContent = arr[0]['heads'][0]['firstName'] + arr[0]['heads'][0]['lastName']
+                    resultsContainer.append(gryffindorHead1)
+
+                    const gryffindorHead2 = document.createElement('h3')
+                    gryffindorHead2.textContent = arr[0]['heads'][1]['firstName'] + arr[0]['heads'][1]['lastName']
+                    resultsContainer.append(gryffindorHead2)
+
+                }
+                document.querySelector('#gryffindorHeads').addEventListener('click', function(){
+                    printGryffindorHeads()
+                })
+
+                const gryffindorTraits = document.createElement('button')
+                gryffindorTraits.setAttribute('class', 'housesH2')
+                gryffindorTraits.setAttribute('id', 'gryffindorTraits')
+                gryffindorTraits.textContent = 'Traits'
+                resultsContainer.append(gryffindorTraits)
+
+                const printGryffindorTraits = function(){
+                    clearUI()
+                    const gryffindorTrait1 = document.createElement('h3')
+                    gryffindorTrait1.textContent = arr[0]['traits'][0]['name']
+                    resultsContainer.append(gryffindorTrait1)
+
+                    const gryffindorTrait2 = document.createElement('h3')
+                    gryffindorTrait2.textContent = arr[0]['traits'][1]['name']
+                    resultsContainer.append(gryffindorTrait2)
+
+                    const gryffindorTrait3 = document.createElement('h3')
+                    gryffindorTrait3.textContent = arr[0]['traits'][2]['name']
+                    resultsContainer.append(gryffindorTrait3)
+
+                    const gryffindorTrait4 = document.createElement('h3')
+                    gryffindorTrait4.textContent = arr[0]['traits'][3]['name']
+                    resultsContainer.append(gryffindorTrait4)
+
+                    const gryffindorTrait5 = document.createElement('h3')
+                    gryffindorTrait5.textContent = arr[0]['traits'][4]['name']
+                    resultsContainer.append(gryffindorTrait5)
+
+                    const gryffindorTrait6 = document.createElement('h3')
+                    gryffindorTrait6.textContent = arr[0]['traits'][5]['name']
+                    resultsContainer.append(gryffindorTrait6)
+                }
+
+                document.querySelector('#gryffindorTraits').addEventListener('click', function(){
+                    printGryffindorTraits()
+                })
+
+
+            }
+
+            document.querySelector('#gryffindorBtnMain').addEventListener('click', function(){
+                printGryffindor()
+            })
+
+
+            const ravenclawBtnMain = document.createElement('button')
+            ravenclawBtnMain.setAttribute('id', 'ravenclawBtnMain')
+            ravenclawBtnMain.setAttribute('class', 'ravenclawBtnMain')
+            ravenclawBtnMain.textContent = arr[1]['name']
+            resultsContainer.append(ravenclawBtnMain)
+
+            const printravenclaw =  function(){
+                clearUI()
+
+                const ravenclawAnimal = document.createElement('h3')
+                ravenclawAnimal.setAttribute('class', 'housesH2')
+                ravenclawAnimal.textContent = arr[0]['animal']
+                resultsContainer.append(ravenclawAnimal)
+
+                const ravenclawCommonRoom = document.createElement('h3')
+                ravenclawCommonRoom.setAttribute('class', 'housesH2')
+                ravenclawCommonRoom.textContent = arr[0]['commonRoom']
+                resultsContainer.append(ravenclawCommonRoom)
+
+                const ravenclawElement = document.createElement('h3')
+                ravenclawElement.setAttribute('class', 'housesH2')
+                ravenclawElement.textContent = arr[0]['element']
+                resultsContainer.append(ravenclawElement)
+
+                const ravenclawFounder = document.createElement('h3')
+                ravenclawFounder.setAttribute('class', 'housesH2')
+                ravenclawFounder.textContent = arr[0]['founder']
+                resultsContainer.append(ravenclawFounder)
+
+                const ravenclawGhost = document.createElement('h3')
+                ravenclawGhost.setAttribute('class', 'housesH2')
+                ravenclawGhost.textContent = arr[0]['ghost']
+                resultsContainer.append(ravenclawGhost)
+
+                const ravenclawHeads = document.createElement('button')
+                ravenclawHeads.setAttribute('class', 'housesH2')
+                ravenclawHeads.setAttribute('id', 'ravenclawHeads')
+                ravenclawHeads.textContent = 'Heads'
+                resultsContainer.append(ravenclawHeads)
+
+                const printravenclawHeads = function(){
+                    clearUI()
+                    const ravenclawHead1 = document.createElement('h3')
+                    ravenclawHead1.textContent = arr[1]['heads'][0]['firstName'] + arr[1]['heads'][0]['lastName']
+                    resultsContainer.append(ravenclawHead1)
+
+                    const ravenclawHead2 = document.createElement('h3')
+                    ravenclawHead2.textContent = arr[1]['heads'][1]['firstName'] + arr[1]['heads'][1]['lastName']
+                    resultsContainer.append(ravenclawHead2)
+
+                }
+                document.querySelector('#ravenclawHeads').addEventListener('click', function(){
+                    printravenclawHeads()
+                })
+
+                const ravenclawTraits = document.createElement('button')
+                ravenclawTraits.setAttribute('class', 'housesH2')
+                ravenclawTraits.setAttribute('id', 'ravenclawTraits')
+                ravenclawTraits.textContent = 'Traits'
+                resultsContainer.append(ravenclawTraits)
+
+                const printravenclawTraits = function(){
+                    clearUI()
+                    const ravenclawTrait1 = document.createElement('h3')
+                    ravenclawTrait1.textContent = arr[1]['traits'][0]['name']
+                    resultsContainer.append(ravenclawTrait1)
+
+                    const ravenclawTrait2 = document.createElement('h3')
+                    ravenclawTrait2.textContent = arr[1]['traits'][1]['name']
+                    resultsContainer.append(ravenclawTrait2)
+
+                    const ravenclawTrait3 = document.createElement('h3')
+                    ravenclawTrait3.textContent = arr[1]['traits'][2]['name']
+                    resultsContainer.append(ravenclawTrait3)
+
+                    const ravenclawTrait4 = document.createElement('h3')
+                    ravenclawTrait4.textContent = arr[1]['traits'][3]['name']
+                    resultsContainer.append(ravenclawTrait4)
+
+                    const ravenclawTrait5 = document.createElement('h3')
+                    ravenclawTrait5.textContent = arr[1]['traits'][4]['name']
+                    resultsContainer.append(ravenclawTrait5)
+
+                    const ravenclawTrait6 = document.createElement('h3')
+                    ravenclawTrait6.textContent = arr[1]['traits'][5]['name']
+                    resultsContainer.append(ravenclawTrait6)
+                }
+
+                document.querySelector('#ravenclawTraits').addEventListener('click', function(){
+                    printravenclawTraits()
+                })
+
+
+            }
+
+            document.querySelector('#ravenclawBtnMain').addEventListener('click', function(){
+                printravenclaw()
+            })
+
+            
+
+            const hufflepuffBtnMain = document.createElement('button')
+            hufflepuffBtnMain.setAttribute('id', 'hufflepuffBtnMain')
+            hufflepuffBtnMain.setAttribute('class', 'hufflepuffBtnMain')
+            hufflepuffBtnMain.textContent = arr[2]['name']
+            resultsContainer.append(hufflepuffBtnMain)
+
+            const printHufflepuff =  function(){
+                clearUI()
+
+                const hufflepuffAnimal = document.createElement('h3')
+                hufflepuffAnimal.setAttribute('class', 'housesH2')
+                hufflepuffAnimal.textContent = arr[0]['animal']
+                resultsContainer.append(hufflepuffAnimal)
+
+                const hufflepuffCommonRoom = document.createElement('h3')
+                hufflepuffCommonRoom.setAttribute('class', 'housesH2')
+                hufflepuffCommonRoom.textContent = arr[0]['commonRoom']
+                resultsContainer.append(hufflepuffCommonRoom)
+
+                const hufflepuffElement = document.createElement('h3')
+                hufflepuffElement.setAttribute('class', 'housesH2')
+                hufflepuffElement.textContent = arr[0]['element']
+                resultsContainer.append(hufflepuffElement)
+
+                const hufflepuffFounder = document.createElement('h3')
+                hufflepuffFounder.setAttribute('class', 'housesH2')
+                hufflepuffFounder.textContent = arr[0]['founder']
+                resultsContainer.append(hufflepuffFounder)
+
+                const hufflepuffGhost = document.createElement('h3')
+                hufflepuffGhost.setAttribute('class', 'housesH2')
+                hufflepuffGhost.textContent = arr[0]['ghost']
+                resultsContainer.append(hufflepuffGhost)
+
+                const hufflepuffHeads = document.createElement('button')
+                hufflepuffHeads.setAttribute('class', 'housesH2')
+                hufflepuffHeads.setAttribute('id', 'hufflepuffHeads')
+                hufflepuffHeads.textContent = 'Heads'
+                resultsContainer.append(hufflepuffHeads)
+
+                const printhufflepuffHeads = function(){
+                    clearUI()
+                    const hufflepuffHead1 = document.createElement('h3')
+                    hufflepuffHead1.textContent = arr[2]['heads'][0]['firstName'] + arr[2]['heads'][0]['lastName']
+                    resultsContainer.append(hufflepuffHead1)
+
+                    const hufflepuffHead2 = document.createElement('h3')
+                    hufflepuffHead2.textContent = arr[2]['heads'][1]['firstName'] + arr[2]['heads'][1]['lastName']
+                    resultsContainer.append(hufflepuffHead2)
+
+                }
+                document.querySelector('#hufflepuffHeads').addEventListener('click', function(){
+                    printhufflepuffHeads()
+                })
+
+                const hufflepuffTraits = document.createElement('button')
+                hufflepuffTraits.setAttribute('class', 'housesH2')
+                hufflepuffTraits.setAttribute('id', 'hufflepuffTraits')
+                hufflepuffTraits.textContent = 'Traits'
+                resultsContainer.append(hufflepuffTraits)
+
+                const printhufflepuffTraits = function(){
+                    clearUI()
+                    const hufflepuffTrait1 = document.createElement('h3')
+                    hufflepuffTrait1.textContent = arr[2]['traits'][0]['name']
+                    resultsContainer.append(hufflepuffTrait1)
+
+                    const hufflepuffTrait2 = document.createElement('h3')
+                    hufflepuffTrait2.textContent = arr[2]['traits'][1]['name']
+                    resultsContainer.append(hufflepuffTrait2)
+
+                    const hufflepuffTrait3 = document.createElement('h3')
+                    hufflepuffTrait3.textContent = arr[2]['traits'][2]['name']
+                    resultsContainer.append(hufflepuffTrait3)
+
+                    const hufflepuffTrait4 = document.createElement('h3')
+                    hufflepuffTrait4.textContent = arr[2]['traits'][3]['name']
+                    resultsContainer.append(hufflepuffTrait4)
+
+                    const hufflepuffTrait5 = document.createElement('h3')
+                    hufflepuffTrait5.textContent = arr[2]['traits'][4]['name']
+                    resultsContainer.append(hufflepuffTrait5)
+
+                    const hufflepuffTrait6 = document.createElement('h3')
+                    hufflepuffTrait6.textContent = arr[2]['traits'][5]['name']
+                    resultsContainer.append(hufflepuffTrait6)
+                }
+
+                document.querySelector('#hufflepuffTraits').addEventListener('click', function(){
+                    printhufflepuffTraits()
+                })
+
+
+            }
+
+            document.querySelector('#hufflepuffBtnMain').addEventListener('click', function(){
+                printHufflepuff()
+            })
+
+            
+
+            const slytherinBtnMain = document.createElement('button')
+            slytherinBtnMain.setAttribute('id', 'slytherinBtnMain')
+            slytherinBtnMain.setAttribute('class', 'slytherinBtnMain')
+            slytherinBtnMain.textContent = arr[3]['name']
+            resultsContainer.append(slytherinBtnMain)
+
+            const printslytherin =  function(){
+                clearUI()
+
+                const slytherinAnimal = document.createElement('h3')
+                slytherinAnimal.setAttribute('class', 'housesH2')
+                slytherinAnimal.textContent = arr[0]['animal']
+                resultsContainer.append(slytherinAnimal)
+
+                const slytherinCommonRoom = document.createElement('h3')
+                slytherinCommonRoom.setAttribute('class', 'housesH2')
+                slytherinCommonRoom.textContent = arr[0]['commonRoom']
+                resultsContainer.append(slytherinCommonRoom)
+
+                const slytherinElement = document.createElement('h3')
+                slytherinElement.setAttribute('class', 'housesH2')
+                slytherinElement.textContent = arr[0]['element']
+                resultsContainer.append(slytherinElement)
+
+                const slytherinFounder = document.createElement('h3')
+                slytherinFounder.setAttribute('class', 'housesH2')
+                slytherinFounder.textContent = arr[0]['founder']
+                resultsContainer.append(slytherinFounder)
+
+                const slytherinGhost = document.createElement('h3')
+                slytherinGhost.setAttribute('class', 'housesH2')
+                slytherinGhost.textContent = arr[0]['ghost']
+                resultsContainer.append(slytherinGhost)
+
+                const slytherinHeads = document.createElement('button')
+                slytherinHeads.setAttribute('class', 'housesH2')
+                slytherinHeads.setAttribute('id', 'slytherinHeads')
+                slytherinHeads.textContent = 'Heads'
+                resultsContainer.append(slytherinHeads)
+
+                const printslytherinHeads = function(){
+                    clearUI()
+                    const slytherinHead1 = document.createElement('h3')
+                    slytherinHead1.textContent = arr[3]['heads'][0]['firstName'] + arr[3]['heads'][0]['lastName']
+                    resultsContainer.append(slytherinHead1)
+
+                    const slytherinHead2 = document.createElement('h3')
+                    slytherinHead2.textContent = arr[3]['heads'][1]['firstName'] + arr[3]['heads'][1]['lastName']
+                    resultsContainer.append(slytherinHead2)
+
+                }
+                document.querySelector('#slytherinHeads').addEventListener('click', function(){
+                    printslytherinHeads()
+                })
+
+                const slytherinTraits = document.createElement('button')
+                slytherinTraits.setAttribute('class', 'housesH2')
+                slytherinTraits.setAttribute('id', 'slytherinTraits')
+                slytherinTraits.textContent = 'Traits'
+                resultsContainer.append(slytherinTraits)
+
+                const printslytherinTraits = function(){
+                    clearUI()
+                    const slytherinTrait1 = document.createElement('h3')
+                    slytherinTrait1.textContent = arr[3]['traits'][0]['name']
+                    resultsContainer.append(slytherinTrait1)
+
+                    const slytherinTrait2 = document.createElement('h3')
+                    slytherinTrait2.textContent = arr[3]['traits'][1]['name']
+                    resultsContainer.append(slytherinTrait2)
+
+                    const slytherinTrait3 = document.createElement('h3')
+                    slytherinTrait3.textContent = arr[3]['traits'][2]['name']
+                    resultsContainer.append(slytherinTrait3)
+
+                    const slytherinTrait4 = document.createElement('h3')
+                    slytherinTrait4.textContent = arr[3]['traits'][3]['name']
+                    resultsContainer.append(slytherinTrait4)
+
+                    const slytherinTrait5 = document.createElement('h3')
+                    slytherinTrait5.textContent = arr[3]['traits'][4]['name']
+                    resultsContainer.append(slytherinTrait5)
+
+                    const slytherinTrait6 = document.createElement('h3')
+                    slytherinTrait6.textContent = arr[3]['traits'][5]['name']
+                    resultsContainer.append(slytherinTrait6)
+                }
+
+                document.querySelector('#slytherinTraits').addEventListener('click', function(){
+                    printslytherinTraits()
+                })
+
+
+            }
+
+            document.querySelector('#slytherinBtnMain').addEventListener('click', function(){
+                printslytherin()
+            })
+
+
+            // const housesNavBar = 
+
+            
+
+
+        }
     })
 
     books21.textContent = arr[6]['list'][21]['name']

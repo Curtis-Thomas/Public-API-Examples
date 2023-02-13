@@ -244,6 +244,37 @@ button {
         text-transform: uppercase;
     }
 
+    .housesNavBar {
+        width: 100%;
+    }
+
+    .housesNavBar button {
+        width: 100%;
+        width: 100%;
+        border: none;
+        border-radius: 0px;
+        height: 15vh;
+        border: solid 1px white;
+     
+    }
+
+    .gryffindorBtnMain,
+    .ravenclawBtnMain,
+    .hufflepuffBtnMain,
+    .slytherinBtnMain {
+        width: 100%;
+        border: none;
+        border-radius: 0px;
+        height: 15vh;
+        border: solid 1px white;
+       
+    }
+
+    .housesH2 {
+        display: block;
+        width: 100%;
+    }
+
 }
 
 
