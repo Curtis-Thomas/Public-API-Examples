@@ -443,7 +443,7 @@ document.querySelector('#btnBooks').addEventListener('click', function(){
 
     books20.textContent = arr[6]['list'][20]['name']
     books20.setAttribute("id", "btnBooks20");
-    books20.setAttribute("class", "green");
+    books20.setAttribute("class", "blue");
     resultsContainer.append(books20)
 
     document.querySelector('#btnBooks20').addEventListener('click',function(){

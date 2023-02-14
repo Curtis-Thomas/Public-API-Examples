@@ -926,13 +926,124 @@ document.querySelector('#btnCrypto').addEventListener('click', function(){
 
     document.querySelector('#btnCrypto53').addEventListener('click',function(){
         function fetchAPI(){
-            let url = `https://data.messari.io/api/v1/assets?fields=id,slug,symbol,metrics/market_data/price_usd`
+            let url = `https://data.messari.io/api/v1/assets`
             fetch(url)
                 .then((response) => response.json())
-                .then((data)=> console.log(data)) 
-                // .then((data)=> renderAPI4(data) )       
+                // .then((data)=> console.log(data)) 
+                .then((data)=> renderAPI(data) )       
         }
         fetchAPI()
+
+        function renderAPI(data){
+
+            console.log(data);
+
+            clearUI()
+
+            const btnStart = document.createElement('button')
+            btnStart.setAttribute('id', 'btnStart')
+            btnStart.textContent = 'START'
+            resultsContainer.append(btnStart)
+
+            const btnHome = document.createElement('button')
+            btnHome.setAttribute('id', 'btnHomeMessari')
+            btnHome.textContent = 'Home'
+            navContainer.append(btnHome)
+
+            document.querySelector('#btnHomeMessari').addEventListener('click', function(){
+                clearUI()
+                
+                
+
+                for(let i = 0; i < Object.keys(arrCrypto.data).length; i++ ){
+
+                    let btnMain = document.createElement('button')
+                    btnMain.setAttribute('class', 'btnMain')   
+                    btnMain.textContent = arrCrypto.data[i]['slug']
+                    btnMain.setAttribute('id',`btnMain${i}`)
+                    resultsContainer.append(btnMain) 
+                }
+
+                for(let i = 0; i < Object.keys(arrCrypto.data).length; i++ ){
+                    document.querySelector(`#btnMain${i}`).addEventListener('click', function(){
+                    clearUI()
+                    console.log(arrCrypto.data[i].slug);
+                    
+            
+                    const printName = document.createElement('h3')
+                    printName.textContent = 'Name: ' +   `${arrCrypto.data[i].slug}`
+                    resultsContainer.append(printName)
+            
+                    const printSymbol = document.createElement('p')
+                    printSymbol.textContent = 'Symbol: ' +   `${arrCrypto.data[i].symbol}`
+                    resultsContainer.append(printSymbol)
+            
+                    const printCategory = document.createElement('p')
+                    printCategory.textContent = 'Category: ' +   `${arrCrypto.data[i].profile.category}`
+                    resultsContainer.append(printCategory)
+            
+                    const printOverview = document.createElement('p')
+                    printOverview.textContent = 'Overview: ' +   `${arrCrypto.data[i].profile.overview}`
+                    resultsContainer.append(printOverview)
+            
+            
+                    })
+                }
+
+
+            })
+
+
+           
+
+            document.querySelector('#btnStart').addEventListener('click', function(){
+                document.querySelector('#btnStart').style.display = 'none'
+                arrCrypto = data
+               
+
+                for(let i = 0; i < Object.keys(arrCrypto.data).length; i++ ){
+
+                    console.log(i);
+
+                    let btnMain = document.createElement('button')
+                    btnMain.setAttribute('class', 'btnMainMessari')   
+                    btnMain.textContent = arrCrypto.data[i]['slug']
+                    btnMain.setAttribute('id',`btnMain${i}Messari`)
+                    resultsContainer.append(btnMain) 
+                }
+
+                for(let i = 0; i < Object.keys(arrCrypto.data).length; i++ ){
+                    document.querySelector(`#btnMain${i}Messari`).addEventListener('click', function(){
+                    clearUI()
+                    console.log(arrCrypto.data[i].slug);
+                    
+            
+                    const printName = document.createElement('h3')
+                    printName.textContent = 'Name: ' +   `${arrCrypto.data[i].slug}`
+                    resultsContainer.append(printName)
+            
+                    const printSymbol = document.createElement('p')
+                    printSymbol.textContent = 'Symbol: ' +   `${arrCrypto.data[i].symbol}`
+                    resultsContainer.append(printSymbol)
+            
+                    const printCategory = document.createElement('p')
+                    printCategory.textContent = 'Category: ' +   `${arrCrypto.data[i].profile.category}`
+                    resultsContainer.append(printCategory)
+            
+                    const printOverview = document.createElement('p')
+                    printOverview.textContent = 'Overview: ' +   `${arrCrypto.data[i].profile.overview}`
+                    resultsContainer.append(printOverview)
+            
+            
+                    })
+                }
+
+
+            })
+
+           
+
+        }
     })
 
     crypto54.textContent = arr[11]['list'][54]['name']
@@ -942,7 +1053,7 @@ document.querySelector('#btnCrypto').addEventListener('click', function(){
 
     document.querySelector('#btnCrypto54').addEventListener('click',function(){
         function fetchAPI(){
-            let url = `https://api.n.exchange/en/api/v1/currency/`
+            let url = `https://data.messari.io/api/v1/assets?fields=id,slug,symbol,metrics/market_data/price_usd`
             fetch(url)
                 .then((response) => response.json())
                 .then((data)=> console.log(data)) 
@@ -950,6 +1061,8 @@ document.querySelector('#btnCrypto').addEventListener('click', function(){
         }
         fetchAPI()
     })
+
+    
 
     crypto55.textContent = arr[11]['list'][55]['name']
     crypto55.setAttribute("id", "btnCrypto55");
