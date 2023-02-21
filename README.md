@@ -18,5 +18,5 @@ Red (Currently unusable)
 
 ToDo List:
 - Complete Initial Full List and sort into color coded scheme
-- Fix 'Animals' Another Button positioning
 - Add UI for usable API's
+
